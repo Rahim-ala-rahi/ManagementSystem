@@ -1,0 +1,149 @@
+
+Project Name: Dayone - Laravel Multipurpose Admin & Dashboard Template
+
+Version : V.1
+
+Updated-date: 11th-JULY-2022
+
+ 
+ Updates :- 
+         
+                1) Some CSS folders are removed from css folder and moved to SCSS folder
+                2) Sidemenu folder updated in SCSS
+		3) Few js files  are updated
+		4) UI issues Fixed.
+
+
+*******************************************************************************************************************
+----------------------------------------------------------------------
+1) Some CSS folders are removed from css folder and moved to SCSS folder
+----------------------------------------------------------------------
+  step-1:-  The below scss files are moved to scss folder root--->(resources/assets/scss/layouts)
+
+ 		1) boxed.scss
+ 		2) dark.scss
+		3) skin-modes.scss
+ 		4) transparent-style.scss
+
+  step-2:-   Below links are removed from style.blade.php, custom-style file path: 
+
+                <link href="../assets/css/boxed.css" rel="stylesheet" />
+		<link href="../assets/css/dark.css" rel="stylesheet" />
+		<link href="../assets/css/skin-modes.css" rel="stylesheet" />
+		<link href="../assets/css/transparent-style.css" rel="stylesheet">
+
+ step-3:-  Please remove Below tasks in gulp file 
+
+		//_______task for Dark
+		//_______task for Transparent
+		//_______task for Boxed
+		//_______task for Skin-modes
+
+
+----------------------------------------------------------------------
+ 2) Sidemenu folder updated in SCSS
+----------------------------------------------------------------------
+    sidemenu folder updated in SCSS root--->(resources/assets/scss/sidemenu)
+
+  The below scss files are merged with default-menu.scss
+
+	1) closed.scss
+ 	2) hover-submenu.scss
+	3) hover-submenu1.scss
+ 	4) icon-text.scss
+
+----------------------------------------------------------------------
+3) Few js files are updated
+----------------------------------------------------------------------
+ Check out Custom.js, Custom-1.js,  themeColors.js and sidemenu.js  are updated
+
+           Custom.js ---> (resources/assets/js/Custom.js)
+
+           Custom-1.js ---> (resources/assets/js/Custom-1.js)
+
+           themeColors.js ---> (resources/assets/js/themeColors.js)
+
+           sidemenu.js ---> (resources/assets/plugins/sidemenu/sidemenu.js)
+
+ -->  Add class "login-img" in below custom blade pages in body tag  	
+
+         ---> 400.blade.php
+         ---> 401.blade.php
+         ---> 403.blade.php
+         ---> 404.blade.php
+         ---> 500.blade.php
+         ---> 503.blade.php
+         ---> coming.blade.php
+         ---> construction.blade.php
+         ---> forgot-password-1.blade.php
+         ---> forgot-password-2.blade.php
+         ---> forgot-password-3.blade.php
+         ---> lockscreen-1.blade.php
+         ---> lockscreen-2.blade.php
+         ---> lockscreen-3.blade.php
+         ---> login-1.blade.php
+         ---> login-2.blade.php
+         ---> login-3.blade.php
+         ---> message-danger.blade.php
+         ---> message-success.blade.php
+         ---> message-warning.blade.php
+         ---> register-1.blade.php
+         ---> register-2.blade.php
+         ---> register-3.blade.php
+         ---> reset-password-1.blade.php
+         ---> reset-password-2.blade.php
+         ---> reset-password-3.blade.php
+
+-----------------------------------
+4) Fixed  UI  issues
+-----------------------------------
+
+	Minor ui issues fixed to resolve them please replace below css and scss files.
+
+		Please replace below files in scss folder
+
+		1. _custom-styles.scss            root---->(resources/assets/scss/custom/_custom-styles.scss)
+		1. _sidemenu.scss                 root---->(resources/assets/scss/sidemenu/_default-menu.scss)
+		2. _rtl.scss     		  root---->(resources/assets/scss/layouts/_rtl.scss)
+
+
+  NOTE:- If you are using "Laravel Mix" please run "npm run dev" or "npm run watch".  
+
+
+Thanking you,
+@spruko.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

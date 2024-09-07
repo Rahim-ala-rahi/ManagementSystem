@@ -1,0 +1,2 @@
+
+@include('layouts.masters.commonmaster')

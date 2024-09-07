@@ -1,0 +1,2286 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Meta data -->
+		<meta charset="UTF-8">
+		<meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0'>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="Dayone - Laravel Multipurpose Admin & Dashboard Template">
+		<meta name="author" content="Spruko Technologies Private Limited">
+		<meta name="keywords" content="admin dashboard, admin dashboard laravel, admin panel template, blade template, blade template laravel, bootstrap template, dashboard laravel, laravel admin, laravel admin dashboard, laravel admin panel, laravel admin template, laravel bootstrap admin template, laravel bootstrap template, laravel template">
+		<!-- Title -->
+		<title>Dayone - Laravel Multipurpose Admin & Dashboard Template</title>
+		<link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+		<link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
+		<link href="assets/plugins/iconfonts/icons.css" rel="stylesheet" />
+		<!-- Custom Css -->
+		<link href="assets/css/main.css" rel="stylesheet">
+		<!---Internal  Prism css-->
+		<link href="assets/plugins/prism/prism.css" rel="stylesheet">
+		<link href="assets/plugins/treeview-prism/prism.css" rel="stylesheet">
+		<link href="assets/plugins/treeview-prism/prism-treeview.css" rel="stylesheet">
+		<link href="assets/css/themes/all-themes.css" rel="stylesheet" />
+	</head>
+
+	<body class="theme-blush">
+		<!-- Page Loader -->
+		<div class="page-loader-wrapper">
+			<div class="loader">
+				<div class="preloader">
+					<div class="spinner-layer pl-blush">
+						<div class="circle-clipper left">
+							<div class="circle"></div>
+						</div>
+						<div class="circle-clipper right">
+							<div class="circle"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- #END# Page Loader -->
+
+		<!-- Overlay For Sidebars -->
+		<div class="overlay"></div>
+		<!-- #END# Overlay For Sidebars -->
+
+
+		<!-- #Top Bar -->
+		<section>
+			<!-- Left Sidebar -->
+			<aside id="leftsidebar" class="sidebar">
+				<!-- User Info -->
+				<div class="admin-image" style="margin-bottom:0px;text-align:center;"> <img src="assets/images/logo-white.png" alt=""> </div>
+				<!-- Menu -->
+				<div class="menu main-sidebar ">
+					<ul class="list" id="documenter_nav">
+						<li class="nav-item"><a class="nav-link" href="#documenter_cover"><i class="fa fa-hourglass-start"></i><span>Start</span></a></li>
+
+						<li class="nav-item"><a class="nav-link" href="#Template_Description"><i class="fe fe-airplay"></i><span>Template Description</span></a></li>
+
+						<li class="nav-item"><a class="nav-link" href="#Advanced_Features"><i class="fe fe-codepen"></i><span>Template Features</span></a></li>
+
+						<li class="nav-item"><a class="nav-link" href="#minimum_req"><i class="fa fa-check-square-o"></i><span>Minimum Requirements</span></a></li>
+
+						<li class="nav-item"><a class="nav-link" href="#installation"><i class="fa fa-download"></i><span>Installation</span></a></li>
+
+						<li class="nav-item"><a class="nav-link" href="#InstallationInstructions"><i class="fa fa-server"></i><span>Installation Instructions</span></a></li>
+
+						<li class="nav-item"><a class="nav-link" href="#layoutSection"><i class="fa fa-th"></i><span>Layout Section</span></a></li>
+
+						<li class="nav-item"><a class="nav-link" href="#upgradelaravel"><i class="fa fa-level-up" aria-hidden="true"></i></i><span>Upgrade Laravel Version</span></a></li>
+
+						<li class="nav-item"><a href="#locaLaravel"><i class="fa fa-hdd-o"></i><span>Local Host Laravel</span></a></li>
+
+						<li class="nav-item"><a class="nav-link" href="#laravelmix"><i class="fa fa-retweet"></i><span>Laravel Mix</span></a></li>
+
+						<li class="nav-item"><a class="nav-link" href="#livewire"><i class="fa fa-compress"></i><span>Livewire</span></a></li>
+
+						<li class="nav-item"><a class="nav-link" href="#browsersync"><i class="fa fa-chrome"></i><span>BrowserSync</span></a></li>
+
+						<li class="nav-item"><a class="nav-link" href="#version"><i class="fa fa-briefcase"></i><span>Version</span></a></li>
+
+						<li class="nav-item"><a class="nav-link" href="#folder_structure"><i class="fa fa-folder"></i><span>Folder Structure</span></a></li>
+
+						<li class="nav-item"><a class="nav-link" href="#blade_view"><i class="fa fa-bolt" aria-hidden="true"></i></i><span>Blade View</span></a></li>
+
+						<li class="nav-item"><a class="nav-link" href="#switcher"><i class="fa fa-gear"></i><span>Switcher</span></a></li>
+
+						<li class="nav-item custom"><a class="nav-link" href="#faqs"><i class="fa fa-question-circle"></i><span class="font-weight-bold">FAQS</span></a></li>
+
+						<li class="nav-item"><a class="nav-link" href="#sources"><i class="fa fa-lightbulb-o"></i><span>Sources</span></a></li>
+
+						<li class="nav-item"><a class="nav-link" href="#fonts"><i class="fa fa-font-awesome"></i><span>Fonts</span></a></li>
+
+						<li class="nav-item"><a class="nav-link" href="#thank_you"><i class="fa fa-smile-o"></i><span>THANK YOU!</span></a></li>
+					</ul>
+				</div>
+				<!-- #Menu -->
+			</aside>
+			<!-- #END# Left Sidebar -->
+		</section>
+
+		<section class="content home">
+			<div class="container-fluid">
+				<div class="block-header">
+					<h1>Dayone - Laravel Multipurpose Admin & Dashboard Template</h1>
+				</div>
+				<div class="row clearfix">
+					<div class="col-sm-12">
+						<div class="card" id="documenter_cover">
+							<div class="body">
+								<h5 class="mt-0 mb-2">Dashboard</h3>
+								<span class="mt-2 text-muted fs-15 font-weight-normal">Welcome to Dayone - Laravel Multipurpose Admin & Dashboard Template</span>
+								<ul class="documenter-list mt-3">
+									<li>Created Date: 06/july/2022</li>
+									<li>Author: Spruko</li>
+									<li>Company: Spruko Technologies Private Limited</li>
+									<li>Support: <a href="mailto:support@spruko.com">support@spruko.com</a></li>
+								</ul>
+								<p>Thank you for purchasing our admin template. Feel free to contact us any time. We have a
+									best dedicated team to provide you the best support. If you have any queries please
+									contact us through live chat or email:- sprukotechnologies@gmail.com</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row clearfix">
+					<div class="col-sm-12">
+						<div class="card" id="documenter_cover">
+							<div class="body">
+								<h5 class="mt-0 mb-2">Introduction</h3>
+								<span class="mt-2 text-muted fs-15 font-weight-normal">Welcome to Dayone - Laravel Multipurpose Admin & Dashboard Template</span>
+								<p class="mt-3">Dayone is a responsive HTML based Laravel template, With these template formats,
+									it's very easy to
+									create
+									a presence and grab someone's attention around the web page
+									because the template is built using HTML5, CSS3, Bootstrap 5 framework and with
+									Sass.<br> So
+									please before you start working with the template take a quick look on the
+									documentation.
+									So that you can easily built your website.</p>
+								<p class="mb-0">If You Love Our Template Design <strong>Please don't forget to rate
+										it.</strong> Thank you so much! &#128522;</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row clearfix">
+					<div class="col-sm-12">
+						<div class="card section" id="Template_Description">
+							<div class="body">
+								<h5 class="mt-0 mb-2">Template Description</h5>
+								<p class="mt-3"> Dayone– is a Laravel Multipurpose Admin & Dashboard template using modern and minimal design. It is fully flexible user-friendly and responsive. Dayone admin template is powered with HTML 5, SASS, & Bootstrap 5 which looks great on Desktops, Tablets, and Mobile Devices. This Template Includes 240+ blade.php Pages & 75+ Plugins more UI elements . No Need to do hard work for this template customization. We already designed it and you can easily design your website just how you like it.
+									Advanced Form-Elements like Date pickers, form elements are included. This template using Bootstrap4 framework. This admin template is fully 100% Premium Admin Templates quality. This template designed for using HTML5,CSS3,Jquery. After Purchased this template you will get All PHP files,CSS, Scss and JS Files.
+								</p>
+								<p> It has super clean flat user interface admin Backend design, easy customizable components and widgets.The Template comes with a awesome unique design also we ensure you can easily design admin template.</p>
+								<p>it is a fully responsive layout for all type of devices. Works on all major web browsers, Desktop, iPhone, iPad, Tablet and all other smart phone devices</p>
+								<P class="mb-0"> Once you Purchase Dayone – Laravel Admin Panel Template,  you will be able to get free download of all future updates.</P>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row clearfix">
+					<div class="col-sm-12">
+						<div class="card" id="Advanced_Features">
+							<div class="body">
+								<h5 class="mt-0 mb-2">Template Features</h5>
+								<ul class="feature-list mb-0 ml-0">
+									<li class="mt-4">7 Types Dashboards</li>
+									<li>240+ blade.php Pages</li>
+									<li>Bootstrap 5 Responsive Framework</li>
+									<li>Well Commented Code</li>
+									<li>24  * 7 Professional Company Support</li>
+									<li>Regular Updates</li>
+									<li>75+ Plugins</li>
+									<li>7 types of Charts</li>
+									<li>Select2</li>
+									<li>Mail Inbox</li>
+									<li>11 Types of Icons</li>
+									<li>File upload</li>
+									<li>Message Chat</li>
+									<li>Form Elements</li>
+									<li>Moth & Date & Year Range Pickers</li>
+									<li>FormAdvanced Elements</li>
+									<li>Data Tables</li>
+									<li>Lockscreen Page</li>
+									<li>Error Page</li>
+									<li>Under Construction Page</li>
+									<li>User Profile</li>
+									<li>Draggable cards</li>
+									<li>Images-comparison</li>
+									<li>Easy to customize</li>
+									<li>More Widgets</li>
+									<li>Invoice Page</li>
+									<li>Pricing Tables</li>
+									<li>Very Easy to Create your Own Site</li>
+									<li>Neat, clean and simple design</li>
+									<li>W3C Validated</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row clearfix">
+					<div class="col-sm-12">
+						<div class="card" id="minimum_req">
+							<div class="body">
+								<h5 class="mt-0 mb-2">Minimum Requirements</h5>
+								<ul class="documenter-list mt-3">
+									<li>PHP >= 8.0 or Newer </li>
+									<li>Laravel >= 9 or Newer</li>
+									<li>Livewire >= 2.10</li>
+									<li>Ctype PHP Extension </li>
+									<li>OpenSSL PHP Extension</li>
+									<li>Fileinfo PHP extension</li>
+									<li>PDO PHP Extension</li>
+									<li>Mbstring PHP Extension</li>
+									<li>Tokenizer PHP Extension</li>
+									<li>XML PHP Extension</li>
+									<li>JSON PHP Extension </li>
+								</ul>
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row clearfix">
+					<div class="col-sm-12">
+						<div class="card" id="installation">
+							<div class="body">
+								<h5 class="mt-0 mb-3">Installation Process of <b style="color:red">Composer</b> </h5>
+								<p class="mt-0 mb-0">Note: The clear documentation of PDF is given on How To Run Laravel
+									Project In Localhost -<b style="color:red"> For Beginners.</b> Please Check out the PDF
+									before running the project.</p>
+							
+								<h6 class="mt-0 mb-2">In order to run Laravel we need to install composer by the
+									following
+									steps</h6>
+								<div class="accordion mt-3">
+									<div class="accordion-header">
+										<h4> Steps to Download & Installation of Composer </h4><br>
+										<p><b>Step1:</b> Please visit the Official Web Site of the Composer
+											<a href="https://getcomposer.org/" target="_blank">www.getcomposer.org</a></p>
+										<p><b>Step2:</b>Click on the <strong>Download</strong> option</p>
+										<p><b>Step3:</b> Click on the <strong>Composer-Setup.exe</strong> you are done with
+											download</p>
+										<p><b>Step4:</b> Now Right click on the <strong>Composer-Setup.exe</strong> file and select
+											Run as administrator click on <strong>Yes</strong></p>
+										<p><b>Step5:</b> You'll be getting two options click as per your choice</p>
+										<p><b>Step6:</b> I choose Recommended option here and if your developer you can check the
+											box of the <strong>Developer Mode</strong></p>
+										<p><b>Step7:</b> And click on the <strong>Next</strong> button please make sure of
+											installation path and then click <strong>Next</strong></p>
+										<p><b>Step8:</b> You'll be asked to enter proxy url please skip the step and click on the
+											<strong>Next</strong> button</p>
+										<p><b>Step9:</b> Please make sure with the <strong>PHP Version</strong> it should not be
+											less than <strong>8.0v</strong>, here we used
+											<strong>8.o.13 Version</strong> and then click on the next button</p>
+										<p><b>Step10:</b> To confirm that <strong>Composer</strong> is installed in your system
+											then type <strong>Composer</strong> in command prompt (if you are using XAMPP
+											then go to C:\xampp\htdocs location and type composer)</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="row clearfix">
+					<div class="col-sm-12">
+						<div class="card" id="installation">
+							<div class="body">
+								<h5 class="mt-0 mb-2">Installation Process Of<b style="color:rgb(255, 0, 0)"> Laravel
+								</b></h5>
+							<div class="body">
+								<h6 class="mt-0 mb-2">Here we are using "Composer" to download "Laravel" packages</h6>
+								<p>Note : This installation is shown based on XAMPP server..</p>
+								<div class="accordion">
+									<div class="accordion-header">
+										<ol>
+											<li>Open command prompt, find the path of your XAMPP that is installed in your system.</li>
+											<li>Go to Example:<code>C:\xampp\htdocs></code> path in command prompt.</li>
+											<li>Now type the following command line <code>composer create-project laravel/laravel my-project</code>  and hit enter to install the Laravel Packages in your "htdocs" folder.</li>
+											
+											<li>Now your downloading is started please wait for sometime to download all the necessary packages</li>
+											<li>Once you are redirected to the <code>C:\xampp\htdocs></code> path then you are sucessfully installed laravel</li><br>
+											<p> <strong>Note:</strong>  If you have any further queries in installation please refer to the official websites <a href="https://laravel.com/docs/8.x/installation" target="_blank">Click here</a></p>
+										</ol>
+									</div>
+								</div>
+								<h5>After installation run following command to get laravel development server</h5>
+								<div class="accordion">
+									<div class="accordion-header">
+										<code>php artisan serve</code>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row clearfix">
+					<div class="col-sm-12">
+						<div class="card" id="InstallationInstructions">
+							<div class="body">
+								<h5 class="mt-0 mb-2">Installation Instructions For both CPANEL’S and FTP </b></h5>
+								<h6 class="mt-3"><strong>Installation Instructions</strong></h6>
+								<div class="accordion mt-3">
+									<div class="accordion-header">
+										<p>Upload the Project that you have purchased in below directory based on your server</p>
+											<h6 class="mt-0 mb-2"> <strong>FTP Uploading Process</strong></h6>
+											<ol class="documenter-list">
+												<span><strong>Access FTP:</strong></span>
+												<li>Login to your FTP server using your login credentials provided by your hosting provider.</li>
+												<span><strong>Upload Project Files:</strong></span>
+												<li>Now extract the project folder that you have received, in any of your directories</li>
+												<li>Now navigate to that directory using FTP panel and upload the project in Path: public_html/ directory in your FTP server .</li>
+												<li>Once the uploading completes you can access your domain Example: www.example.com</li>
+											</ol>
+
+										<h6><strong>cPanel Uploading Process</strong></h6>
+										<ol class="documenter-list">
+											<span><strong>Access cPanel:</strong></span>
+											<li>Login to your cPanel server using your login credentials provided by your hosting provider.</li>
+											<span><strong>Upload Project Files:</strong></span>
+											<li>Once you successfully accessed your cPanel dashboard, navigate and click on <strong>File Manager</strong></li>
+											<li>Now open <strong>public_html</strong> and click on <strong>Upload</strong></li>
+											<li>Here you can select your zipped project folder or you can simply drag and drop your zipped project folder, once the uploading is completed go back to the <strong>public_html</strong> folder </li>
+											<li>In the <strong>public_html</strong> folder, you will find your zipped project folder now you need to extract that project folder
+											</li><li>Once the extraction is completed you can access your domain Example: www.example.com</li>
+										</ol>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+							
+				<div class="row clearfix">
+					<div class="col-sm-12">
+						<div class="card" id="layoutSection">
+							<div class="body">
+								<h5 class="mt-0 mb-2">The Basic Structure Of <b style="color:red">Laravel Project</b></h5>
+								</b></h5>
+		<pre class="mt-3"> 
+			<code class="language-treeview">
+					├── app
+					├── bootstrap
+					├── config
+					├── database
+					├── lang
+					├── public
+					├── resources
+					├── routes
+					├── storage
+					├── tests
+					├── vendor
+					├── .editorconfig
+					├── .env
+					├── .env.example
+					├── .gitattributes
+					├── .gitignore
+					├── .htaccess
+					├── .styleci.yml
+					├── artisan.File
+					├── composer.json
+					├── composer.lock
+					├── package.json
+					├── package-lock.json
+					├── phpunit.xml
+					├── README.md
+					└── webpack.mix.js
+			</code>
+		</pre>
+							</div>
+						</div>
+					</div>
+				</div>
+			
+				<div class="row clearfix">
+					<div class="col-sm-12">
+						<div class="card" id="upgradelaravel">
+							<div class="body">
+								<h5 class="mt-0 mb-2">How to Upgrade Larvel Version</h5>
+								<p>If you want to Upgrade laravel  version, Please follow the below steps, if not you can skip this procedure.<p>
+								<h5 class="mt-0">Step 1:</h5>
+								<div class="accordion mt-2">
+									<div class="accordion-header">
+
+										<p>Replace below Dependency versions in <strong>composer.json</strong>  file which is placed in root directory</p>
+										<ul>
+										<!-- <P class="mb-0"> -->
+										<li>php:- ^8.0</li>
+										<li>fideloper/proxy:- ^4.4</li>
+										<li>fruitcake/laravel-cors:- ^2.0</li>
+										<li>guzzlehttp/guzzle:- ^7.4.1</li>
+										<li>laravel/framework:- ^8.54</li>
+										<li>nunomaduro/collision:- ^5.10</li>
+										<li>phpunit/phpunit:- ^9.5.10</li>
+										<li>laravel/tinker:- ^2.6</li>
+										<li>"livewire/livewire": "^2.8"</li>
+										</ul>
+									</div>
+								</div>
+								<h5 class="mt-3">Step 2:</h5>
+								<div class="accordion mt-2">
+									<div class="accordion-header">
+										<p class="mb-0">Delete vendor folder</p>
+									</div>
+								</div>
+								<h5 class="mt-3">Step 3:</h5>
+								<div class="accordion mt-2">
+									<div class="accordion-header">
+										<p>Set your project root path in command prompt and run the following command line in command prompt.</p>
+										<code>Composer update</code> 
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row clearfix">
+					<div class="col-sm-12">
+						<div class="card" id="locaLaravel">
+							<div class="body">
+								<h5 class="mt-0 mb-2">How to Run Laravel Project in <b style="color:red">localhost</b>
+								</h5>
+								<p>If you have installed XAMPP on your machine then please follow the below steps</p>
+								<h6 class="mt-3"><strong>Step:1 Quick view of Installations</strong></h6>
+								<div class="accordion mt-2">
+									<div class="accordion-header">
+										<p>1. Download and Install the Composer from official site <a
+												href="https://getcomposer.org/" target="_blank">https://getcomposer.org/</a></p>
+										<p>2. Install <strong>Laravel</strong> by using <strong>Composer</strong> as
+											mentioned in the installation process above. </p>
+									</div>
+								</div>
+								<h6 class="mt-3"><strong>Step:2 Run project</strong></h6>
+								<div class="accordion mt-2">
+									<div class="accordion">
+										<div class="accordion-header">
+											<p>1. Now open Xampp and launch the Apache server by clicking the start button.</p>
+
+											<p>2. Extract the zip folder of the laravel project in the path: EX: C:\xampp\htdocs\ that you have received after purchase.</p>
+
+											<p>3. Once the extraction is completed, type the localhost url in the browser to access the project. Example: http://localhost/my-project/.</p>
+
+											<p>4. Another process for accessing the laravel project, open command prompt or terminal and set your project root path: Example: C:\Users\my-project></p>
+
+											<p>5. And run the command line: php artisan serve in the terminal</p>
+
+											<p>6. Laravel development server started: http://127.0.0.1:8000, now type the url in the browser to access the project.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row clearfix">
+					<div class="col-sm-12">
+						<div class="card" id="laravelmix">
+							<div class="body">
+								<h5 class="mt-0 mb-2">How to Use <b style="color:red">Laravel Mix</b>
+								</h5>
+								<strong>In order to use laravel Mix you need to install Node.js in your system</strong>
+								<div class="accordion mt-3">
+									<div class="accordion-header">
+										<p>Recommended LTS (long term support) version of Node.js.</p>
+										<p>Download latest version of node.js from <a href="https://nodejs.org/en/">nodejs.org</a></p> 
+										<p>Install Node.js using .exe downloaded file.</p> 
+										<p>To check your node version, run node -v in a terminal/console window (cmd)</p> 
+									</div>
+								</div>
+								<strong>Now you need to install Node Modules in your project folder</strong>
+								<div class="accordion mt-3">
+									<div class="accordion">
+										<div class="accordion-header">
+											<p>1. Go to your project folder and there you will find a file called <strong>package.json</strong>.</p>
+											<p>2. Open the file in your editor and make sure that all the dependencies are correct as shown below </p>
+												<div>
+													<ul>
+														<li>"axios": "^0.25",</li>
+														<li>"browser-sync": "^2.27.10",</li>
+														<li>"browser-sync-webpack-plugin": "^2.3.0",</li>
+														<li>"laravel-mix": "^6.0.6",</li>
+														<li>"lodash": "^4.17.19",</li>
+														<li>"postcss": "^8.1.14",</li>
+														<li>"sass": "^1.52.3",</li>
+														<li>"sass-loader": "^12.1.0",</li>
+													</ul>
+												</div>
+											<p>3. And now set your project root path in terminal or command prompt Example: <b>cd C:\Users\Admin\Desktop\my-project</b> and type the below command line.</p>
+											<code>npm install</code>
+											<p>4. Wait until all the dependencies are downloaded to your project folder.</p>
+											<p>5. Now you can see the downloaded folder with the name of <strong>node_modules</strong> in your project folder.</p>
+											<p>6. Now in order to <strong>Compile Assets (Mix)</strong> first, you need to run development mode.</p>
+											<p>7. Set your project root path and type the below command line.</p>
+											<code>npm run development</code>
+											<p>8. Once the development mode starts you can customize your assets</p>
+											<p>9. After your project is set into  Development Mode you need not run the  Development Mode, again and again, 
+												you can simply run the below command line to compile your assets.</p>
+											<code>npm run watch</code>
+											<p>10. Once you completed with the customization work you need to run your project in Production Mode 
+												in order to run Production Mode run the below command line</p>
+											<code>npm run production</code>
+										</div>
+									</div>
+								</div>
+								<strong>Compiling Assets (Mix) or Customization</strong>
+									<div class="accordion mt-3">
+										<div class="accordion-header">
+											<p>1. Go to your project folder and there you will find a folder called <strong>resources</strong> in the resources folder you will see <strong>assets</strong>.</p>
+											<p>2. In the assets folder you will see images, js, plugins, scss and custom-theme folders, and in the case of RTL version images, js, plugins, scss-rtl and custom-theme.</p>
+											<div class="row clearfix">
+												<div class="col-sm-12">
+														<div class="header">
+															<h2 class="mt-0 mb-2">Assets Folder Structure</h2>
+														</div>
+		<pre>
+			<code class="language-treeview">
+				├── public/
+				|   ├── assets
+				|   |   ├── css
+				|   |   ├── images
+				|   |   ├── js
+				|   |   ├── plugins
+				|   |   └── switcher
+				|   ├── .htaccess
+				|   ├── favicon
+				|   ├── index.php
+				|   ├── mix-manifest.json
+				|   └── robots.txt
+				├── resources/
+				|   ├── assets
+				|   |   ├── css
+				|   |   ├── images
+				|   |   ├── js
+				|   |   ├── plugins
+				|   |   ├── scss
+				|   |   └── switcher
+				|   ├── views
+				|   |   ├── layouts/
+				|   |   |   ├── components/
+				|   |   |   ├── masters/
+				|   |   |   ├── support-system/
+				|   |   |   └── app.blade files
+				|   |   └── livewire/ (240+ blade.php files)
+				
+			</code>
+		</pre>
+												</div>
+											</div>
+											<p>3. Now you can compile or customize your assets using scss and js files that are present in the <strong>resources/assets</strong> folder.</p>
+											<p>4.  Once the changes made in the files in order to apply those changes to your template you need to type the below command in the same terminal or command prompt that you have set your project root path.</p>
+											<code>npm run dev (or) npm run watch</code>
+											<p class="mt-3"><b>NOTE:</b> Both commands will performs the same actions but the difference is that npm run dev will only perform at once you've started it and stops after compiling, where as npm run watch will starts compiling after you've started it and it won't stop until you stop it.</p>
+
+											<p>5. npm starts Compiling all your scss, css, js, images, landing and plugins that are present in resources folder.</p>
+
+											<p>6. And all the compiled files of scss, css, js, images, landing, and plugins folders are copied to your public/assets css, js, images, landing, and plugins folders respectively.</p>
+
+											<p><b>Note 1:</b> While compiling assets, scss files are converted to css and js filse are converted to js files.</p>
+
+											<p><b>Note 2:</b>plugins, images and landing folders are directly copied into assets folder and all the complied files and folders are seen in your public folder with the name of assets as shown in the above folder structure.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				<div class="row clearfix">
+					<div class="col-sm-12">
+						<div class="card" id="livewire">
+							<div class="body">
+								<h5 class="mt-0 mb-2">How to install <b style="color:red">Livewire</b>
+								</h5>
+								<div class="accordion mt-3">
+									<div class="accordion-header">
+										<ol>
+											<li>Basic requirements to install <strong>Livewire</strong></li>
+											<ul class="list-unstyled">
+												<li> --> PHP 8.0 or higher</li>
+												<li> --> Laravel 8.0 or higher</li>
+											</ul>
+											<li>Install <strong>LiveWire</strong>  using composer.</li>
+											<li>Set your project root path in your console or terminal and type below command line.</li>
+											<code>composer require livewire/livewire</code>
+											<li class="mt-2">To create component using <strong>LiveWire</strong> set your project root path in your console and type below command line.</li>
+											<code>php artisan make:livewire example</code>
+											<li class="mt-2">Now two new files were created in your project: referral link <a href="https://laravel-livewire.com/docs/2.x/rendering-components" style="text-decoration: none;" target="_blank">LiveWire Component</a> </li>
+											<ul class="list-unstyled">
+												<code>app/Http/Livewire/example.php</code> is the <strong>Component</strong>  file and <code class="language-php"><li>resources/views/livewire/example.blade.php</li></code> is the <strong>View</strong> file
+												<br>
+											</ul>
+											<li class="mt-2">Here we used Livewire to create Components and View files (i.e example.php and example.blade.php files).</li>
+											<p><strong>Note:</strong>There are total 240+ php and blade.php files created by <strong>Livewire</strong>.</p>
+										</ol>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row clearfix">
+					<div class="col-sm-12">
+						<div class="card" id="browsersync">
+							<div class="body">
+								<h5 class="mt-0 mb-2">How to Use <b style="color:red">BrowserSync</b>
+								</h5>
+								<div class="accordion mt-3">
+									<div class="accordion-header">
+										<ol>
+											<li>The BrowserSync is a built-in feature in this Dayone Laravel project.</li>
+											<li>The BrowserSync dependency is downloaded automatically with node_modules when you run <strong> npm install</strong>.</li>
+											<li>In order to use BrowserSync you need to set your domain as shown in the below root path.</li>
+											<li>Open your project folder and scroll down there you will find a file name called <strong>webpack.mix</strong> open the file in your favourite editor.</li>
+											<li>Now scroll down there you will find <strong>mix.browserSync('http://127.0.0.1:8000');</strong> here we used <strong>http://127.0.0.1:8000</strong> is the default domain of php artisan serve but you can use your own domain in place of <strong>http://127.0.0.1:8000</strong><a href="https://laravel-mix.com/docs/5.0/browsersync" target="_blank"> BrowserSync</a>.</li>
+											<li>Once you set your domain you need to run your project in server mode, set your project root path in console or terminal and run the below command.</li>
+											<code>php artisan serve</code>
+											<li>And to open your project in your browser you need to run the below command.</li>
+											<code>npm run watch</code>
+											<p><strong>Note:</strong>First you need to set your Domain as shown above and you need to run your project in server mode (php artisan serve).</p>
+											<li>If you want to ignore Browser-Sync process then, please navigate to the root project there you will find webpack.mix.js file, open that file in an editor and scroll-down there you will find "mix.browserSync('http://127.0.0.1:8000');" please comment or remove that particular line now you are done. Now you can use your project without browser sync.</li>
+										</ol>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row clearfix">
+					<div class="col-sm-12">
+						<div class="card" id="version">
+							<div class="body">
+								<h5 class="mt-0 mb-2">Version</h5>
+								<ul class="feature-list">
+									<li>php:- ^8.0</li>
+									<li>laravel/framework:- ^9.7</li>
+									<li>"livewire/livewire": "^2.10.5"</li>
+									<li>laravel-mix: 6.0.6</li>
+									<li>guzzlehttp/guzzle:- ^7.2</li>
+									<li>laravel/tinker:- ^2.7</li>
+									<li>phpunit/phpunit:- ^9.0</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row clearfix">
+					<div class="col-sm-12">
+						<div class="card" id="folder_structure">
+							<div class="body">
+								<h5 class="mt-0 mb-2">Over All Folder Structure</h5>
+		<pre>
+			<code class="language-treeview">
+				├── app/
+				|   ├── Console
+				|   ├── Exceptions
+				|   ├── Http
+				|   |   ├── Controllers
+				|   |   ├── Livewire (240+ php files)						
+				|   |   ├── Middleware
+				|   |   └── Kernel.php
+				|   ├── Models
+				|   └── Providers
+				├── bootstrap/
+				├── config/
+				├── database/
+				├── public/
+				|   ├── assets
+				|   ├── .htaccess
+				|   ├── favicon
+				|   ├── index.php
+				|   ├── mix-manifest.json
+				|   └── robots.txt
+				├── resources/
+				|   ├── assets
+				|   └── views/
+				|       ├── layouts/
+				|       |   ├── components/
+				|       |   |   ├── app-header.blade.php	
+				|       |   |   ├── app-header1.blade.php
+				|       |   |   ├── app-sidebar.blade.php
+				|       |   |   ├── custom-scripts.blade.php
+				|       |   |   ├── custom-styles.blade.php
+				|       |   |   ├── custom-switcher.blade.php
+				|       |   |   ├── footer.blade.php
+				|       |   |   ├── modal.blade.php
+				|       |   |   ├── right-sidebar.blade.php
+				|       |   |   ├── scripts.blade.php
+				|       |   |   ├── styles.blade.php
+				|       |   |   ├── switcher.blade.php
+				|       |   |   ├── switcher-scripts.blade.php
+				|       |   |   └── switcher-styles.blade.php
+				|       |   ├── masters/
+				|       |   |   ├── clientmaster.blade.php
+				|       |   |   ├── commonmaster.blade.php
+				|       |   |   ├── empmaster.blade.php
+				|       |   |   ├── hrmaster.blade.php
+				|       |   |   ├── jobmaster.blade.php
+				|       |   |   ├── projectmaster.blade.php
+				|       |   |   ├── supadminmaster.blade.php
+				|       |   |   └── taskmaster.blade.php
+				|       |   ├── support-system/
+				|       |   |   ├── landing-footer.blade.php
+				|       |   |   ├── landing-header.blade.php
+				|       |   |   ├── landing-header1.blade.php
+				|       |   |   ├── mobile-header.blade.php
+				|       |   |   ├── modal.blade.php
+				|       |   |   ├── onlinesletter.blade.php
+				|       |   |   ├── scripts.blade.php
+				|       |   |   ├── spfooter.blade.php
+				|       |   |   ├── styles.blade.php
+				|       |   |   └── switcher.blade.php
+				|       |   ├── app.blade.php 
+				|       |   ├── clientappp.blade.php
+				|       |   ├── customapp.blade.php
+				|       |   ├── empapp.blade.php
+				|       |   ├── hrapp.blade.php
+				|       |   ├── jobapp.blade.php  
+				|       |   ├── projectappp.blade.php
+				|       |   ├── supadminapp.blade.php
+				|       |   ├── supportappapp.blade.php
+				|       |   ├── supportlanding-app.blade.php
+				|       |   ├── taskapp.blade.php 
+				|       |   └── theme.blade.php    
+				|       └── livewire/ (240+ blade.php files)   
+				├── routes/
+				|   ├── api.php
+				|   ├── channels.php
+				|   ├── console.php
+				|   └── web.php
+				├── storage
+				├── tests
+				├── vendor
+				├── .editorconfig
+				├── .env
+				├── .env.example
+				├── .gitattributes
+				├── .gitignore
+				├── .htaccess
+				├── .styleci.yml
+				├── artisan.php
+				├── composer.json
+				├── composer.lock					
+				├── package.json
+				├── package-lock.json
+				├── phpunit.xml
+				├── README.md
+				├── server.php
+				└── webpack.mix.js
+			</code>
+		</pre>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row clearfix">
+					<div class="col-sm-12">
+						<div class="card" id="blade_view">
+							<div class="body">
+								<h5 class="mt-0 mb-2">Blade View</h5>
+								<p> Blade is a simple, yet powerful templating engine provided with Laravel.</p>
+								<div class="accordion">
+									<div class="accordion-header ">
+										--------Imports master file--------
+										<h4>@extends('layouts.app')</h4><br />
+													
+										<h4>@section('content')</h4>
+											&nbsp;--------created a section called content--------
+										<h4>@endsection</h4><br />
+										
+										--------get content data into master file--------
+										<h4>@yield('content')</h4>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row clearfix">
+					<div class="col-sm-12">
+						<div class="card  main-section" id="switcher">
+							<div class="body">
+								<h5 class="mt-0 mb-3">SWITCHER?</h5>
+								<p>If you want to add switcher to your template follow the below process.</p>
+								<div class="accordion">
+									<div class="accordion-header collapsed" data-toggle="collapse" data-target="#panel-body-color" aria-expanded="false">
+										<h4>How to add Switcher to the Template?</h4>
+									</div>
+									<div class="accordion-body border border-top-0 collapse" id="panel-body-color" data-parent="#accordion" aria-expanded="false" style="">
+										<div class="body p-0 border">
+											<div class="bg-primary-transparent">
+												<ul class="nav nav-tabs" id="myTab" role="tablist">
+													<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#switcher-html" role="tab" aria-selected="true" data-original-title="" title="" aria-expanded="false">commonmaster.blade.php</a></li>
+													<li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#switcher-css" role="tab" aria-selected="true" data-original-title="" title="" aria-expanded="false">styles.blade.php</a></li>
+													<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#switcher-js" role="tab" aria-selected="true" data-original-title="" title="" aria-expanded="false">scripts.blade.php</a></li>
+													<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#custom-js" role="tab" aria-selected="true" data-original-title="" title="" aria-expanded="false">scripts.blade.php</a></li>
+													<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#switcher-icon" role="tab" aria-selected="true" data-original-title="" title="" aria-expanded="true">commonmaster.blade.php</a></li>
+												</ul>
+												<div class="tab-content mt-0 p-0" id="myTabContent">
+													<div class="tab-pane fade" id="switcher-html" role="tabpanel" aria-expanded="false">
+														<!-- Prism Code -->
+														<p class="p-3 mt-3 bg-white text-dark"> Go to root path: <code> resources/views/layouts/masters</code> open <code>commonmaster.blade.php</code> in that file, below the <code>body tag</code>, include the switcher path given below.</p>
+														<figure class="mb-0">
+														<pre class="pt-0 mt-0 line-numbers p-0 pl-3 m-0  language-markup">        <code class=" mt-0 pt-0  language-markup">
+			
+		Switcher Path:
+
+			<span class="token comment">&lt;!-- SWITCHER --&gt;</span>
+			@include('layouts.components.switcher')
+			<span class="token comment">&lt;!-- SWITCHER --&gt;</span>
+			
+
+		EX:	
+			<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>app sidebar-mini ltr<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+
+			<span class="token comment">&lt;!-- SWITCHER --&gt;</span>
+			@include('layouts.components.switcher')
+			<span class="token comment">&lt;!-- SWITCHER --&gt;</span>
+			
+														<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+														</figure>
+														<!-- End Prism Precode -->
+													</div>
+													<div class="tab-pane fade show active" id="switcher-css" role="tabpanel" aria-expanded="false">
+														<p class="p-3 mt-3 bg-white text-dark"> Go to root path: <code> resources/views/layouts/components</code> open <code>"styles.blade.php"</code> file and add switcher css links given below.</p>
+														<!-- Prism Code -->
+														<figure class="mb-0">
+														<pre class=" line-numbers m-0 language-css language-markup">          <code class=" language-css language-markup">
+		Add Switcher CSS:
+
+		<span class="token comment">&lt;!-- INTERNAL SWITCHER CSS --&gt;</span>
+		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{{asset(<span class="token punctuation">'</span>assets/switcher/css/switcher.css<span class="token punctuation">'</span>)}}<span class="token punctuation">"</span></span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>stylesheet<span class="token punctuation">"</span></span> <span class="token punctuation">/&gt;</span></span>
+		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{{asset(<span class="token punctuation">'</span>assets/switcher/demo.css<span class="token punctuation">'</span>)}}<span class="token punctuation">"</span></span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>stylesheet<span class="token punctuation">"</span></span> <span class="token punctuation">/&gt;</span></span>
+		
+														<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+														</figure>
+														<!-- End Prism Precode -->
+													</div>
+													<div class="tab-pane fade" id="switcher-js" role="tabpanel" aria-expanded="false">
+														<p class="p-3 mt-3 bg-white text-dark"> Go to root path: <code> resources/views/layouts/components</code> open <code>"scripts.blade.php"</code> file then add <code>switcher js</code> link given below.</p>
+														<!-- Prism Code -->
+														<figure class="mb-0">
+														<pre class=" line-numbers m-0 language-css language-markup">       <code class=" language-css language-markup">
+		Add SWITCHER JS:
+		
+		<span class="token comment">&lt;!-- SWITCHER JS --&gt;</span>
+		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{{asset(<span class="token punctuation">'</span>assets/switcher/js/switcher.js<span class="token punctuation">'</span>)}}<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token punctuation">&lt;/script&gt;</span>
+			
+		
+														<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+														</figure>
+													</div>
+													<div class="tab-pane fade" id="custom-js" role="tabpanel" aria-expanded="false">
+														<p class="p-3 mt-3 bg-white text-dark"> Go to root path: <code> resources/views/layouts/components</code> open <code>"scripts.blade.php"</code> file and then change custom.js link to <code>custom1.js</code> link as shown below.</p>
+														<!-- Prism Code -->
+														<figure class="mb-0">
+														<pre class=" line-numbers m-0 language-css language-markup">       <code class=" language-css language-markup">
+		change custom js link:
+
+		Before :
+		<span class="token comment">&lt;!-- CUSTOM JS --&gt;</span>
+		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{{asset(<span class="token punctuation">'</span>assets/js/custom.js<span class="token punctuation">'</span>)}}<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token punctuation">&lt;/script&gt;</span>
+		
+
+		
+		After :
+
+		<span class="token comment">&lt;!-- CUSTOM1 JS --&gt;</span>
+		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{{asset(<span class="token punctuation">'</span>assets/js/custom1.js<span class="token punctuation">'</span>)}}<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token punctuation">&lt;/script&gt;</span>
+		
+														<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+														<p class="p-3 mt-3 bg-white text-dark"><b>NOTE:</b> Custom1.js file is only used when you want to use switcher for your template.</p>
+														</figure>
+													</div>
+													<div class="tab-pane fade" id="switcher-icon" role="tabpanel" aria-expanded="true">
+														<p class="p-3 mt-3 bg-white text-dark"> Go to root path: <code> resources/views/layouts/masters</code> open <code>"commonmaster.blade.php"</code> file and then change app-header to <code>app-header1</code> as shown below.</p>
+														<figure class="mb-0">
+														<pre class=" line-numbers m-0 language-css language-markup">        <code class=" language-css language-markup">
+
+			Before :
+
+			<span class="token comment">&lt;!-- APP-HEADER --&gt;</span>
+			@include('layouts.components.app-header')
+			<span class="token comment">&lt;!-- SWITCHER --&gt;</span>
+			
+
+			After :
+
+			<span class="token comment">&lt;!-- APP-HEADER-1 --&gt;</span>
+			<code>@include('layouts.components.app-header1')</code>
+			<span class="token comment">&lt;!-- SWITCHER --&gt;</span>
+
+														<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+														</figure>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+										<p class="mt-3"><b>NOTE:</b> Please repeat the above switcher process for the remaing masters that are available in the path: <code>resources/views/layouts/masters</code></p>
+								</div>
+								
+								<div class="accordion">
+									<div class="accordion-header collapsed" data-toggle="collapse" data-target="#panel-body-color1" aria-expanded="false">
+										<h4>How to add Switcher to the Coustom Pages?</h4>
+									</div>
+									<div class="accordion-body border border-top-0 collapse" id="panel-body-color1" data-parent="#accordion" aria-expanded="false" style="">
+										<div class="body p-0 border">
+											<div class="bg-primary-transparent">
+												<ul class="nav nav-tabs" id="myTab" role="tablist">
+													<li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#custom-switcher-html" role="tab" aria-selected="true" data-original-title="" title="" aria-expanded="false">custom-app.blade.php</a></li>
+													<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#custom-switcher-css" role="tab" aria-selected="true" data-original-title="" title="" aria-expanded="false">custom-styles.blade.php</a></li>
+													<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#custom-switcher-js" role="tab" aria-selected="true" data-original-title="" title="" aria-expanded="false">custom-scripts.blade.php</a></li>
+													<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#custom-custom-js" role="tab" aria-selected="true" data-original-title="" title="" aria-expanded="false">custom-scripts.blade.php</a></li>
+													<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#custom-switcher-icon" role="tab" aria-selected="true" data-original-title="" title="" aria-expanded="true">Custom Switcher-Icon Code</a></li>
+												</ul>
+												<div class="tab-content mt-0 p-0" id="myTabContent">
+													<div class="tab-pane fade show active" id="custom-switcher-html" role="tabpanel" aria-expanded="false">
+														<!-- Prism Code -->
+														<p class="p-3 mt-3 bg-white text-dark"> Go to root path: <code> resources/views/layouts</code> open <code> custom-app.blade.php</code> in that file, below the <code>body tag</code>, include the switcher path given below.</p>
+														<figure class="mb-0">
+														<pre class="pt-0 mt-0 line-numbers p-0 pl-3 m-0  language-markup">        <code class=" mt-0 pt-0  language-markup">
+			
+		Switcher Path:
+
+			<span class="token comment">&lt;!-- SWITCHER --&gt;</span>
+			@include('layouts.components.custom-switcher')
+			<span class="token comment">&lt;!-- SWITCHER --&gt;</span>
+			
+
+		EX:	
+			<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+
+			<span class="token comment">&lt;!-- SWITCHER --&gt;</span>
+			@include('layouts.components.custom-switcher')
+			<span class="token comment">&lt;!-- SWITCHER --&gt;</span>
+			
+														<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+														</figure>
+														<!-- End Prism Precode -->
+													</div>
+													<div class="tab-pane fade" id="custom-switcher-css" role="tabpanel" aria-expanded="false">
+														<p class="p-3 mt-3 bg-white text-dark"> Go to root path: <code> resources/views/layouts/components</code> open <code>"custom-styles.blade.php"</code> file and add switcher css links given below.</p>
+														<!-- Prism Code -->
+														<figure class="mb-0">
+														<pre class=" line-numbers m-0 language-css language-markup">          <code class=" language-css language-markup">
+		Add Switcher CSS:
+
+		<span class="token comment">&lt;!-- INTERNAL SWITCHER CSS --&gt;</span>
+		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{{asset(<span class="token punctuation">'</span>assets/switcher/css/switcher.css<span class="token punctuation">'</span>)}}<span class="token punctuation">"</span></span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>stylesheet<span class="token punctuation">"</span></span> <span class="token punctuation">/&gt;</span></span>
+		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{{asset(<span class="token punctuation">'</span>assets/switcher/demo.css<span class="token punctuation">'</span>)}}<span class="token punctuation">"</span></span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>stylesheet<span class="token punctuation">"</span></span> <span class="token punctuation">/&gt;</span></span>
+		
+														<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+														</figure>
+														<!-- End Prism Precode -->
+													</div>
+													<div class="tab-pane fade" id="custom-switcher-js" role="tabpanel" aria-expanded="false">
+														<p class="p-3 mt-3 bg-white text-dark"> Go to root path: <code> resources/views/layouts/components</code> open <code>"custom-scripts.blade.php"</code> file then add <code>switcher js</code> link given below.</p>
+														<!-- Prism Code -->
+														<figure class="mb-0">
+														<pre class=" line-numbers m-0 language-css language-markup">       <code class=" language-css language-markup">
+		Add Switcher js:
+		
+		<span class="token comment">&lt;!-- SWITCHER JS --&gt;</span>
+		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{{asset(<span class="token punctuation">'</span>assets/switcher/js/switcher.js<span class="token punctuation">'</span>)}}<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token punctuation">&lt;/script&gt;</span>
+		
+														<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+														</figure>
+													</div>
+													<div class="tab-pane fade" id="custom-custom-js" role="tabpanel" aria-expanded="false">
+														<p class="p-3 mt-3 bg-white text-dark"> Go to root path: <code> resources/views/layouts/components</code> open <code>"custom-scripts.blade.php"</code> file and then change custom.js link to <code>custom1.js</code> link as shown below.</p>
+														<!-- Prism Code -->
+														<figure class="mb-0">
+														<pre class=" line-numbers m-0 language-css language-markup">       <code class=" language-css language-markup">
+		change custom js link:
+
+		Before :
+		<span class="token comment">&lt;!-- CUSTOM JS --&gt;</span>
+		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{{asset(<span class="token punctuation">'</span>assets/js/custom.js<span class="token punctuation">'</span>)}}<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token punctuation">&lt;/script&gt;</span>
+		
+
+		
+		After :
+
+		<span class="token comment">&lt;!-- CUSTOM1 JS --&gt;</span>
+		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{{asset(<span class="token punctuation">'</span>assets/js/custom1.js<span class="token punctuation">'</span>)}}<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token punctuation">&lt;/script&gt;</span>
+		
+														<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+														<p class="p-3 mt-3 bg-white text-dark"><b>NOTE:</b> Custom1.js file is only used when you want to use switcher for your template.</p>
+														</figure>
+													</div>
+													<div class="tab-pane fade" id="custom-switcher-icon" role="tabpanel" aria-expanded="true">
+														<p class="p-3 mt-3 bg-white text-dark"> Go to root path: <code> resources/views/layouts</code> open <code> custom-app.blade.php</code> in that file, below the <code>body tag</code>, switcher-icon code given below process.</p>
+														<figure class="mb-0">
+														<pre class=" line-numbers m-0 language-css language-markup">        <code class=" language-css language-markup">
+
+		<script type="html-dayone/script">
+	
+		Before : 
+		Comment Switcher-icon code:
+
+					<!-- SWITCHER ICON CODE -->
+					<!-- <div class="dropdown custom-layout">
+						<div class="demo-icon nav-link  icon  float-end mt-5 me-5">
+							<i class="fe fe-settings fa-spin text_primary"></i>
+						</div>
+					</div> -->
+					<!-- SWITCHER ICON CODE CLOSED -->
+
+		After :	
+		UN-Comment Switcher-icon code:
+
+				<body class="login-img">
+					<!-- SWITCHER ICON CODE -->
+					<div class="dropdown custom-layout">
+						<div class="demo-icon nav-link  icon  float-end mt-5 me-5">
+							<i class="fe fe-settings fa-spin text_primary"></i>
+						</div>
+					</div>
+					<!-- SWITCHER ICON CODE CLOSED -->
+			</script>
+
+														<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+														</figure>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="accordion">
+									<div class="accordion-header collapsed" data-toggle="collapse" data-target="#panel-body-color2" aria-expanded="false">
+										<h4>How to add Switcher to the Landing Page?</h4>
+									</div>
+									<div class="accordion-body border border-top-0 collapse" id="panel-body-color2" data-parent="#accordion" aria-expanded="false" style="">
+										<div class="body p-0 border">
+											<div class="bg-primary-transparent">
+												<ul class="nav nav-tabs" id="myTab" role="tablist">
+													<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#landing-switcher-html" role="tab" aria-selected="true" data-original-title="" title="" aria-expanded="false">supportlanding-app.blade.php</a></li>
+													<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#landing-switcher-css" role="tab" aria-selected="true" data-original-title="" title="" aria-expanded="false">styles.blade.php</a></li>
+													<li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#landing-switcher-js" role="tab" aria-selected="true" data-original-title="" title="" aria-expanded="false">scripts.blade.php</a></li>
+													<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#landing-custom-js" role="tab" aria-selected="true" data-original-title="" title="" aria-expanded="false">scripts.blade.php</a></li>
+													<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#landing-switcher-icon" role="tab" aria-selected="true" data-original-title="" title="" aria-expanded="true">supportlanding-app.blade.php</a></li>
+												</ul>
+												<div class="tab-content mt-0 p-0" id="myTabContent">
+													<div class="tab-pane fade" id="landing-switcher-html" role="tabpanel" aria-expanded="false">
+														<!-- Prism Code -->
+														<p class="p-3 mt-3 bg-white text-dark"> Go to root path: <code> resources/views/layouts</code> open <code>supportlanding-app.blade.php</code> in that file, below the <code>body tag</code>, include the switcher path given below.</p>
+														<figure class="mb-0">
+														<pre class="pt-0 mt-0 line-numbers p-0 pl-3 m-0  language-markup">        <code class=" mt-0 pt-0  language-markup">
+			
+		Switcher Path:
+
+			<span class="token comment">&lt;!-- SWITCHER --&gt;</span>
+			@include('layouts.support-system.switcher')
+			<span class="token comment">&lt;!-- SWITCHER --&gt;</span>
+			
+
+		EX:	
+			<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>main-content main<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+
+			<span class="token comment">&lt;!-- SWITCHER --&gt;</span>
+			@include('layouts.support-system.switcher')
+			<span class="token comment">&lt;!-- SWITCHER --&gt;</span>
+			
+														<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+														</figure>
+														<!-- End Prism Precode -->
+													</div>
+													<div class="tab-pane fade" id="landing-switcher-css" role="tabpanel" aria-expanded="false">
+														<p class="p-3 mt-3 bg-white text-dark"> Go to root path: <code> resources/views/layouts/support-system</code> open <code>"styles.blade.php"</code> file and add switcher css links given below.</p>
+														<!-- Prism Code -->
+														<figure class="mb-0">
+														<pre class=" line-numbers m-0 language-css language-markup">          <code class=" language-css language-markup">
+		Add Switcher CSS:
+
+		<span class="token comment">&lt;!-- INTERNAL SWITCHER CSS --&gt;</span>
+		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{{asset(<span class="token punctuation">'</span>assets/switcher/css/switcher.css<span class="token punctuation">'</span>)}}<span class="token punctuation">"</span></span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>stylesheet<span class="token punctuation">"</span></span> <span class="token punctuation">/&gt;</span></span>
+		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{{asset(<span class="token punctuation">'</span>assets/switcher/demo.css<span class="token punctuation">'</span>)}}<span class="token punctuation">"</span></span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>stylesheet<span class="token punctuation">"</span></span> <span class="token punctuation">/&gt;</span></span>
+		
+														<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+														</figure>
+														<!-- End Prism Precode -->
+													</div>
+													<div class="tab-pane fade show active" id="landing-switcher-js" role="tabpanel" aria-expanded="false">
+														<p class="p-3 mt-3 bg-white text-dark"> Go to root path: <code> resources/views/layouts/support-system</code> open <code>"scripts.blade.php"</code> file then add <code>switcher js</code> link given below.</p>
+														<!-- Prism Code -->
+														<figure class="mb-0">
+														<pre class=" line-numbers m-0 language-css language-markup">       <code class=" language-css language-markup">
+		Add Switcher js:
+		
+		<span class="token comment">&lt;!-- SWITCHER JS --&gt;</span>
+		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{{asset(<span class="token punctuation">'</span>assets/switcher/js/switcher.js<span class="token punctuation">'</span>)}}<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token punctuation">&lt;/script&gt;</span>
+		
+														<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+														</figure>
+													</div>
+													<div class="tab-pane fade" id="landing-custom-js" role="tabpanel" aria-expanded="false">
+														<p class="p-3 mt-3 bg-white text-dark"> Go to root path: <code> resources/views/layouts/support-system</code> open <code>"scripts.blade.php"</code> file and then change custom.js link to <code>custom1.js</code> link as shown below.</p>
+														<!-- Prism Code -->
+														<figure class="mb-0">
+														<pre class=" line-numbers m-0 language-css language-markup">       <code class=" language-css language-markup">
+		change custom js link:
+
+		Before :
+		<span class="token comment">&lt;!-- CUSTOM JS --&gt;</span>
+		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{{asset(<span class="token punctuation">'</span>assets/js/custom.js<span class="token punctuation">'</span>)}}<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token punctuation">&lt;/script&gt;</span>
+		
+
+		
+		After :
+
+		<span class="token comment">&lt;!-- CUSTOM1 JS --&gt;</span>
+		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{{asset(<span class="token punctuation">'</span>assets/js/custom1.js<span class="token punctuation">'</span>)}}<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token punctuation">&lt;/script&gt;</span>
+		
+														<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+														<p class="p-3 mt-3 bg-white text-dark"><b>NOTE:</b> Custom1.js file is only used when you want to use switcher for your template.</p>
+														</figure>
+													</div>
+													<div class="tab-pane fade" id="landing-switcher-icon" role="tabpanel" aria-expanded="true">
+														<p class="p-3 mt-3 bg-white text-dark"> Go to root path: <code> resources/views/layouts</code> open <code>"supportlanding-app.blade.php"</code> file and then change landing-header to <code>landing-header1</code> as shown below.</p>
+														<figure class="mb-0">
+														<pre class=" line-numbers m-0 language-css language-markup">        <code class=" language-css language-markup">
+
+			Before :
+
+			<span class="token comment">&lt;!-- LANDING-HEADER --&gt;</span>
+			@include('layouts.components.landing-header')
+			<span class="token comment">&lt;!-- SWITCHER --&gt;</span>
+			
+
+			After :
+
+			<span class="token comment">&lt;!-- LANDING-HEADER-1 --&gt;</span>
+			<code>@include('layouts.components.landing-header1')</code>
+			<span class="token comment">&lt;!-- SWITCHER --&gt;</span>
+
+														<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+														</figure>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<p class="mt-3"><b>NOTE:</b> Please repeat the above switcher process for the supportapp.blade.php that is available in the path: <code>resources/views/layouts/supportapp.blade.php</code></p>
+								</div>
+								<!--for all pages closed-->
+
+								<!--chart color-->
+								<h5 class="mt-3">Chart color</h5>
+								<p><b>NOTE: </b>If you want to change your chart colors according to the themecolors, then follow the process.<b>(Skip this process if this is not your requirement).</b></p>
+								<div class="accordion">
+									<div class="accordion-header collapsed" data-toggle="collapse" data-target="#panel-body-color01" aria-expanded="false">
+										<h4>How to replace your own chart with existing chart and change colors of that particular chart in Dashboard Page ?</h4>
+									</div>
+									<div class="accordion-body border border-top-0 collapse" id="panel-body-color01" data-parent="#accordion3" aria-expanded="false" style="">
+										<b> Note:</b> This process is only for replace your own chart in index.blade.php page</p>
+										<h6 class="mt-3">Step1:</h6>
+										<p>Go to root path: <code>resources/assets/js/index.js</code>  in that js file you will find a function named as index <b>"export function index()"</b>  inside of that function replace the old chart js data with your new chart js data,
+											in order to change your chart color according to your themecolor then add <b>" myVarVal" or "any default color "</b>   (Ex:- myVarVal || "#6259ca") value to that particular color field based on your requirement.</p>
+
+										<h6 class="mt-3">Step2:</h6>
+										<p>Navigate to root path: <code>resources/assets/js/</code>  and open <b>themeColors.js</b>  in that js file you will find a function called <b>"(function names() )"</b>
+											In that function you will find</p>
+										<code>
+											"if(document.querySelector('#chartLine') !== null){
+												index();
+											}"
+										</code>
+										<p class="mt-3">Then change it's id name based on the id that you've used for your particular chart.</p>
+										<p> <b>Ex:</b>  How do I modify the Id in the <b>"themeColors.js"</b>  file?</p>
+										<ul>
+											<b class="me-2">Before :</b> <code>  "if(document.querySelector('#chartLine') !== null){
+												index();
+												}"
+												 </code><br><br>
+											<b class="me-2"> After :</b><code> "if(document.querySelector('# your chart id') !== null){
+												index();
+											}"
+											</code>
+
+										</ul>
+									</div>
+								</div>
+								<div class="accordion">
+									<div class="accordion-header collapsed" data-toggle="collapse" data-target="#panel-body-color02" aria-expanded="false">
+										<h4>How to add your new chart and change colors of that new chart according to your themecolor in Other Pages ?</h4>
+									</div>
+									<div class="accordion-body border border-top-0 collapse" id="panel-body-color02" data-parent="#accordion4" aria-expanded="false" style="">
+										<p><b>Note :</b>  This process is only for adding your new chart to other pages.(Skip this process if this is not your requirement)</p>
+										<p>If you want to change the color of your chart with respect to the themecolor you have to follow the below steps.</p>
+										<h6 class="mt-3">Step 1:</h6>
+										<p>If you want to add any chart to any other page then follow the below process.</p>
+										<p> Open js file of the particular chart that you wanted to add, in that js file (for example in my case: mychart.js), and inside of that js file create a new function with " unique "
+											name (for example in my case: myFunction() ), and then place the chart js content inside of that function.</p>
+										<p><b>Note:</b>  If there is more than one chart then you need to create different functions for different charts respectively.</p>
+										<b class="me-2">Ex-1:</b><code> myFunction1() {
+
+													chart js1 content
+
+											 	}
+										</code><br><br>
+										<b class="me-2">Ex-2:</b><code>myFunction2() {
+
+													chart js2 content
+
+											 	}
+										</code>
+										<h6 class="mt-4 mb-3">Step 2:</h6>
+										<p>Navigate to root path: <code>resources/assets/js/themeColors.js</code>  in that js file you will find a function called <b>"(function names() )"</b>
+											In that function you will find</p>
+										<code> "if(document.querySelector('#sales-summary') !== null){
+											sales-summary();
+											}"
+										</code>
+										<p class="mt-3"> Below this condition add a new condition with the <b>"id name and function name"</b>  that you've used in your chart js
+											(Ex: mychart.js)</p>
+											<b class="me-2">Ex:</b><code>  " if(document.querySelector('# your chart id') !== null){
+														myFunction(); =>created function for the above id
+													}"
+										</code>
+										<h6 class="mt-3">Step 3:</h6>
+										<p>If you want to change your chart <b>(Ex: mychart.js)</b>  color according to your themecolor then follow the below process</p>
+										<p><b>Ex :</b>  Go to root path: <code>resources/assets/js/mychart.js</code>  in that js file you've already created a function <b>(Ex: myFunction() )</b>    inside of that function there are different color values based on the chart. so, if you want to change the color then add <b>" myVarVal " or "any default color"</b>  value (Ex:- myVarVal || "#6259ca")to that particular color field based on your requirement. </p>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+			
+				</div>
+
+				<div class="row clearfix">
+					<div class="col-sm-12">
+						<div class="">
+							<div class="card" id="faqs">
+							<div class="header body">
+								<h5 class="mt-0">FAQ'S</h5>
+							</div>
+							<div class="card-body">
+								<div id="accordion">
+									<div class="accordion">
+										<div class="accordion-header" data-toggle="collapse" data-target="#panel-body-1" >
+											<h4>1. How to Change Font Style ?</h4>
+										</div>
+										<div class="accordion-body collapse border border-top-0" id="panel-body-1" data-parent="#accordion">
+											<h5 class="mt-0">Step 1:</h5>
+											<p>Go To  <b>_fonts.scss</b> <span class="text-primary ml-3"> (resources/assets/scss/custom/fonts/_fonts.scss )</span> </p>
+											<p>if you want to change another font-family Go to the site <a href="https://fonts.google.com/" target="_blank">Google Fonts</a> And Slect One font Family and import In to style.css file </p>
+	
+											<h4>How to Select Font Family</h4>
+											<p><b>Example:</b></p>
+											<p><img alt="" src="assets/images/0-2.jpg" class="border w-100"></p>
+											<h5>Step 2:</h5>
+											<p>And paste Your Selected font-family in _fonts.scss</p>
+											<p><b>Example:</b></p>
+											@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900");
+											<p><img alt="" src="assets/images/0-3.jpg" class="border"></p>
+											<h5>Step 3:</h5>
+											<p>And add the Your Selected font-family in _bootstrap-styles.scss(resources/assets/scss/bootstrap/_bootstrap-styles.scss)</p>
+											<p><b>Example:</b></p>
+											<figure class="highlight clip-widget mb-0">
+		<pre title="jQuery" class="javascript" data-codetype ="JQueryku"><code class="language-javascript">
+			body {
+				margin: 0;
+				font-family: 'Roboto', sans-serif;
+				font-size: 14px;
+				font-weight: 400;
+				line-height: 1.5;
+				color: #263871;
+				text-align: left;
+				background: #f1f4fb;
+				min-height: 100vh;
+				flex-direction: column;
+				justify-content: flex-start;
+				position: relative;
+				overflow-y: scroll;
+			}
+			</code>
+		</pre>
+		</figure>
+											<p><b>NOTE: </b>You must perform <code>npm run dev</code> command after changing or modifying the content in assets folder, otherwise those changes you've made will not be applied to your template.</p>
+										</div>
+									</div>
+									<div class="accordion">
+										<div class="accordion-header" data-toggle="collapse" data-target="#panel-body-icon" >
+											<h4>2. How to Change Sidemenu and Header icon?</h4>
+										</div>
+										<div class="accordion-body collapse border border-top-0" id="panel-body-icon" data-parent="#accordion">
+											<p><b>NOTE :</b>Sidemenu & Header Icons used in Noa are from<code><a href="https://iconscout.com/unicons" target="_blank">https://iconscout.com/unicons</a></code> (Thin Line Icons).</p>
+											<h6>Changing Sidemenu Icon :</h6>
+											<p>You can change sidemenu icon by replacing svg code of selected icon with svg code of required icon and add <code>class="side-menu__icon"</code> for that svg icon</p>
+											<h6>Changing Header Icon :</h6>
+											<p>You can change Header icon by simply replacing svg code of selected icon with svg code of required icon.</p>
+											<p></p>
+										</div>
+									</div>
+									<div class="accordion">
+										<div class="accordion-header" data-toggle="collapse" data-target="#panel-body-456" >
+											<h4>3. How to Change Primary Color ?</h4>
+										</div>
+										<div class="accordion-body collapse border border-top-0" id="panel-body-456" data-parent="#accordion">
+											<h5 class="mt-0">Step 1:</h5>
+											<p>Go To  <b>_bootstrap-styles.scss</b> <span class="text-primary ml-3"> (resources/assets/scss/bootstrap/_bootstrap-styles.scss )</span> </p>
+											<p>You will find <code> --primary-bg-color: #3366ff; </code>, where you can simply change color code to change primary color </p>
+											<h5>How to Change Primary Color</h5>
+											<p><b>Example:</b></p>
+										<p class="text-center"><img alt="" src="assets/images/Primary.jpg" class="border"></p>
+										<p>Simply you can also change color for <code> primary-bg-hover:#255bfb; </code> & <code> --primary-bg-border:#255bfb; </code>, where you can simply change color code to change them </p>
+											<p><b>NOTE: </b>You must perform <code>npm run dev</code> command after changing or modifying the content in assets folder, otherwise those changes you've made will not be applied to your template.</p>
+										</div>
+									</div>
+									<div class="accordion">
+										<div class="accordion-header" data-toggle="collapse" data-target="#panel-body-4">
+											<h4>4. How to Change Logo ?</h4>
+										</div>
+										<div class="accordion-body collapse border border-top-0" id="panel-body-4" data-parent="#accordion">
+											<p class="mb-0">Go To "<b>resources/assets/images/brand</b>" folder and replace Previous logo with New Logo within the given image size.</p>
+											<p class="mb-0"><b>NOTE: </b>Please don't increase logo sizes, replace the logo within  given image size, otherwise the logo will not fit in particular place and it disturbs the template design.</p>
+											<p><b>NOTE: </b>You must perform <code>npm run dev</code> command after changing or modifying the content in assets folder, otherwise those changes you've made will not be applied to your template.</p>
+										</div>
+									</div>
+									<div class="accordion">
+										<div class="accordion-header" data-toggle="collapse" data-target="#panel-body-3449">
+											<h4>5. How to Enable RTL version?</h4>
+										</div>
+										<div class="accordion-body collapse border border-top-0" id="panel-body-3449" data-parent="#accordion">
+									<div class="">
+										<p>To enable <b>RTL</b> you have to open <b>custom.js</b> file present in  <span class="text-primary ml-2 mr-2"> (resources/assets/js/custom.js)</span> file  and remove comments for <code>rtl</code> as shown in below</p>
+	
+			<!-- Prism Code -->
+			<figure class="highlight clip-widget mb-0">
+			<pre title="jQuery" class="javascript" data-codetype ="JQueryku"><code class="language-javascript">
+				// $('body').addClass('rtl');
+			</code></pre>
+			</figure>
+			<!-- End Prism Precode -->
+			<span class="mb-3">Remove the comments to enable <code>rtl</code> version as shown below</span>
+			<!-- Prism Code -->
+			<figure class="highlight clip-widget mb-0">
+			<pre title="jQuery" class="javascript" data-codetype ="JQueryku"><code class="language-javascript">
+				$('body').addClass('rtl');
+			</code></pre>
+			</figure>
+			<!-- End Prism Precode -->
+											<p><b>NOTE: </b>You must perform <code>npm run dev</code> command after changing or modifying the content in assets folder, otherwise those changes you've made will not be applied to your template.</p>
+											</div>
+										</div>
+									</div>
+									<div class="accordion">
+										<div class="accordion-header" data-toggle="collapse" data-target="#panel-body-9">
+											<h4>6. How to Enable Darktheme?</h4>
+										</div>
+										<div class="accordion-body collapse border border-top-0" id="panel-body-9" data-parent="#accordion">
+											<p>To enable <b>Darktheme</b> you have to open <b>custom.js</b> file present in  <span class="text-primary ml-2 mr-2"> (resources/assets/js/custom.js)</span> file  and remove comments for <code>Drak Theme</code> as shown in below</p>
+	
+		<!-- Prism Code -->
+		<figure class="highlight clip-widget mb-0">
+		<pre title="jQuery" class="javascript" data-codetype ="JQueryku"><code class="language-javascript">
+		// DARK THEME START
+			// $('body').addClass('dark-mode');
+		// DARK THEME END
+	
+		</code></pre>
+		</figure>
+		<!-- End Prism Precode -->
+		<span class="mb-3">Remove the comments to enable <code>dark-theme</code> as shown below</span>
+		<!-- Prism Code -->
+		<figure class="highlight clip-widget mb-0">
+		<pre title="jQuery" class="javascript" data-codetype ="JQueryku"><code class="language-javascript">
+		// DARK THEME START
+			$('body').addClass('dark-mode');
+	   // DARK THEME END
+	
+		</code></pre>
+		</figure>
+		<!-- End Prism Precode -->
+	<p><b>NOTE: </b>You must perform <code>npm run dev</code> command after changing or modifying the content in assets folder, otherwise those changes you've made will not be applied to your template.</p>
+	</div>
+									</div>
+									<div class="accordion">
+										<div class="accordion-header" data-toggle="collapse" data-target="#panel-body-transparent">
+											<h4>7. How to change Dark Background Color?</h4>
+										</div>
+										<div class="accordion-body collapse border border-top-0" id="panel-body-transparent" data-parent="#accordion">
+											<h5 class="mt-0">Step 1:</h5>
+											<p>Go To  <b>_bootstrap-styles.scss</b> <span class="text-primary ml-3"> (resources/assets/scss/_variables.scss )</span> </p>
+											<p>You will find <code> --dark-body: #151636; </code>, where you can simply change color code to change dark background color </p>
+		
+											<h5>How to change Dark Background Color</h5>
+											<p><b>Example:</b></p>
+											<p class="text-center"><img alt="" src="assets/images/darkbody.jpg" class="border"></p>
+											<p><b>NOTE: </b>You must perform <code>npm run dev</code> command after changing or modifying the content in assets folder, otherwise those changes you've made will not be applied to your template.</p>
+										</div>
+									</div>
+	
+									<div class="accordion">
+										<div class="accordion-header" data-toggle="collapse" data-target="#panel-body-28">
+											<h4>8. How to Enable Transparent Background Image?</h4>
+										</div>
+										<div class="accordion-body collapse border border-top-0" id="panel-body-28" data-parent="#accordion">
+											<h6 class="mt-0">Please follow the below steps to enable <b>Transparent Background Image</b></h6>
+											<h6 class="mt-3"><b>Step 1 :</b></h6>
+											<p>To enable <b>Transparent Background Image</b> you have to open <b>custom.js</b>file present in  <span class="text-primary ml-2 mr-2"> (resources/assets/js/custom.js)</span> file  and remove comments for <code>bg-img1</code> in <code>Transparent Bg-Image Style</code>section as shown in below</p>
+
+											<!-- Prism Code -->
+											<figure class="highlight clip-widget mb-0">
+											<pre title="jQuery" class="javascript" data-codetype ="JQueryku"><code class="language-javascript">
+
+	// Bg-Image1 Style
+	// $('body').addClass('bg-img1');
+	// $('body').addClass('transparent-mode');
+
+											</code></pre>
+											</figure>
+											<!-- End Prism Precode -->
+											<h6 class="mt-3"><b>Step 2 :</b></h6>
+											<span class="mb-3">Remove the comments to enable <code>bg-img1</code> as shown below</span>
+											<!-- Prism Code -->
+											<figure class="highlight clip-widget mb-0">
+											<pre title="jQuery" class="javascript" data-codetype ="JQueryku"><code class="language-javascript">
+
+	// Bg-Image1 Style
+	$('body').addClass('bg-img1');
+	$('body').addClass('transparent-mode');
+
+											</code></pre>
+											</figure>
+											<!-- End Prism Precode -->
+											<b>NOTE:</b> Similarly you can apply bg-img2,bg-img3,bg-img4
+											<p class="mb-0 pt-2">Go To "<b>resources/assets/images/photos</b>" folder and replace your image with Previous image(bg-img1) within in image size.</p>
+											<p class="mb-0"><b>Note:</b> Please don't increase image size. Replace your image within  given image size. otherwise the image will not fit in particular place it disturbs the template design.</p>
+
+										</div>
+									</div>
+	
+									<div class="accordion">
+										<div class="accordion-header" data-toggle="collapse" data-target="#panel-body-10">
+											<h4>9. How to Enable Color-Header?</h4>
+										</div>
+										<div class="accordion-body collapse border border-top-0" id="panel-body-10" data-parent="#accordion">
+											<p>To enable <b>Color-header</b> you have to open <b>custom.js</b> file present in  <span class="text-primary ml-2 mr-2"> (resources/assets/js/custom.js)</span> file  and remove comments for <code>color-header</code> as shown in below</p>
+	
+	
+		<!-- Prism Code -->
+		<figure class="highlight clip-widget mb-0">
+		<pre title="jQuery" class="javascript" data-codetype ="JQueryku"><code class="language-javascript">
+		// COLOR HEADER START
+			// $('body').addClass('color-header');
+		// COLOR HEADER END
+		</code></pre>
+		</figure>
+		<!-- End Prism Precode -->
+		<span class="mb-3">Remove the comments to enable <code>color-header</code> as shown below</span>
+		<!-- Prism Code -->
+		<!-- Prism Code -->
+		<figure class="highlight clip-widget mb-0">
+		<pre title="jQuery" class="javascript" data-codetype ="JQueryku"><code class="language-javascript">
+		// COLOR HEADER START
+			$('body').addClass('color-header');
+	   // COLOR HEADER END
+		</code></pre>
+		</figure>
+		<!-- End Prism Precode -->
+	<p><b>NOTE: </b>You must perform <code>npm run dev</code> command after changing or modifying the content in assets folder, otherwise those changes you've made will not be applied to your template.</p>
+	</div>
+									</div>
+	
+									<div class="accordion">
+										<div class="accordion-header" data-toggle="collapse" data-target="#panel-body-11">
+											<h4>10. How to Enable Dark-Header?</h4>
+										</div>
+										<div class="accordion-body collapse border border-top-0" id="panel-body-11" data-parent="#accordion">
+											<p>To enable <b>dark-header</b> you have to open <b>custom.js</b> file present in  <span class="text-primary ml-2 mr-2"> (resources/assets/js/custom.js)</span> file  and remove comments for <code>dark-header</code> as shown in below</p>
+	
+		<!-- Prism Code -->
+		<figure class="highlight clip-widget mb-0">
+		<pre title="jQuery" class="javascript" data-codetype ="JQueryku"><code class="language-javascript">
+		// DARK HEADER START
+			// $('body').addClass('dark-header');
+		// DARK HEADER END
+		</code></pre>
+		</figure>
+		<!-- End Prism Precode -->
+		<span class="mb-3">Remove the comments to enable <code>dark-header</code> as shown below</span>
+		<!-- Prism Code -->
+		<figure class="highlight clip-widget mb-0">
+		<pre title="jQuery" class="javascript" data-codetype ="JQueryku"><code class="language-javascript">
+		// DARK HEADER START
+			$('body').addClass('dark-header');
+	   // DARK HEADER END
+		</code></pre>
+		</figure>
+		<!-- End Prism Precode -->
+	<p><b>NOTE: </b>You must perform <code>npm run dev</code> command after changing or modifying the content in assets folder, otherwise those changes you've made will not be applied to your template.</p>
+	</div>
+									</div>
+									<div class="accordion">
+										<div class="accordion-header" data-toggle="collapse" data-target="#panel-body-12">
+											<h4>11. How to Enable Light-Header?</h4>
+										</div>
+										<div class="accordion-body collapse border border-top-0" id="panel-body-12" data-parent="#accordion">
+											<p>To enable <b>light-header</b> you have to open <b>custom.js</b> file present in  <span class="text-primary ml-2 mr-2"> (resources/assets/js/custom.js)</span> file  and remove comments for <code>light-header</code> as shown in below</p>
+	
+	
+		<!-- Prism Code -->
+		<figure class="highlight clip-widget mb-0">
+		<pre title="jQuery" class="javascript" data-codetype ="JQueryku"><code class="language-javascript">
+		// LIGHT HEADER START
+			// $('body').addClass('light-header');
+		// LIGHT HEADER END
+		</code></pre>
+		</figure>
+		<!-- End Prism Precode -->
+		<span class="mb-3">Remove the comments to enable <code>light-header</code> as shown below</span>
+		<!-- Prism Code -->
+		<figure class="highlight clip-widget mb-0">
+		<pre title="jQuery" class="javascript" data-codetype ="JQueryku"><code class="language-javascript">
+		// LIGHT HEADER START
+			$('body').addClass('light-header');
+	   // LIGHT HEADER END
+		</code></pre>
+		</figure>
+		<!-- End Prism Precode -->
+	<p><b>NOTE: </b>You must perform <code>npm run dev</code> command after changing or modifying the content in assets folder, otherwise those changes you've made will not be applied to your template.</p>
+	</div>
+									</div>
+									<div class="accordion">
+										<div class="accordion-header" data-toggle="collapse" data-target="#panel-body-17">
+											<h4>12. How to Enable Gradient-Header?</h4>
+										</div>
+										<div class="accordion-body collapse border border-top-0" id="panel-body-17" data-parent="#accordion">
+											<p>To enable <b>Gradient-header</b> you have to open <b>custom.js</b> file present in  <span class="text-primary ml-2 mr-2"> (resources/assets/js/custom.js)</span> file  and remove comments for <code>gradient-header</code> as shown in below</p>
+	
+		<!-- Prism Code -->
+		<figure class="highlight clip-widget mb-0">
+		<pre title="jQuery" class="javascript" data-codetype ="JQueryku"><code class="language-javascript">
+		// GRADIENT HEADER START
+			// $('body').addClass('gradient-header');
+		// GRADIENT HEADER END
+		</code></pre>
+		</figure>
+		<!-- End Prism Precode -->
+		<span class="mb-3">Remove the comments to enable <code>gradient-header</code> as shown below</span>
+		<!-- Prism Code -->
+		<figure class="highlight clip-widget mb-0">
+		<pre title="jQuery" class="javascript" data-codetype ="JQueryku"><code class="language-javascript">
+		// GRADIENT HEADER START
+			$('body').addClass('gradient-header');
+	   // GRADIENT HEADER END
+		</code></pre>
+		</figure>
+		<!-- End Prism Precode -->
+	<p><b>NOTE: </b>You must perform <code>npm run dev</code> command after changing or modifying the content in assets folder, otherwise those changes you've made will not be applied to your template.</p>
+	</div>
+									</div>
+									<div class="accordion">
+										<div class="accordion-header" data-toggle="collapse" data-target="#panel-body-68">
+											<h4>13. How to Enable Light Menu?</h4>
+										</div>
+										<div class="accordion-body collapse border border-top-0" id="panel-body-68" data-parent="#accordion">
+											<p>To enable <b>Light Menu</b> you have to open <b>custom.js</b> file present in  <span class="text-primary ml-2 mr-2"> (resources/assets/js/custom.js)</span> file  and remove comments for <code>light-menu</code> as shown in below</p>
+	
+		<!-- Prism Code -->
+		<figure class="highlight clip-widget mb-0">
+		<pre title="jQuery" class="javascript" data-codetype ="JQueryku"><code class="language-javascript">
+		<script type="html-dayone/script">
+		// LIGHT LEFTMENU START
+			// $('body').addClass('light-menu');
+		// LIGHT LEFTMENU END
+		</script></code></pre>
+		</figure>
+		<!-- End Prism Precode -->
+		<span class="mb-3">Remove the comments to enable <code>light-menu</code> as shown below</span>
+		<!-- Prism Code -->
+		<figure class="highlight clip-widget mb-0">
+		<pre title="jQuery" class="javascript" data-codetype ="JQueryku"><code class="language-javascript">
+		<script type="html-dayone/script">
+		// LIGHT LEFTMENU START
+			$('body').addClass('light-menu');
+	   // LIGHT LEFTMENU END
+		</script></code></pre>
+		</figure>
+		<!-- End Prism Precode -->
+	<p><b>NOTE: </b>You must perform <code>npm run dev</code> command after changing or modifying the content in assets folder, otherwise those changes you've made will not be applied to your template.</p>
+	</div>
+									</div>
+	
+									<div class="accordion">
+										<div class="accordion-header" data-toggle="collapse" data-target="#panel-body-34445">
+											<h4>14. How to Enable Color Menu?</h4>
+										</div>
+										<div class="accordion-body collapse border border-top-0" id="panel-body-34445" data-parent="#accordion">
+											<p>To enable <b>Color Menu</b> you have to open <b>custom.js</b> file present in  <span class="text-primary ml-2 mr-2"> (resources/assets/js/custom.js)</span> file  and remove comments for <code>color-menu</code> as shown in below</p>
+	
+		<!-- Prism Code -->
+		<figure class="highlight clip-widget mb-0">
+		<pre title="jQuery" class="javascript" data-codetype ="JQueryku"><code class="language-javascript">
+		<script type="html-dayone/script">
+		// COLOR LEFTMENU START
+			// $('body').addClass('color-menu');
+		// COLOR LEFTMENU END
+		</script></code></pre>
+		</figure>
+		<!-- End Prism Precode -->
+		<span class="mb-3">Remove the comments to enable <code>color-menu</code> as shown below</span>
+		<!-- Prism Code -->
+		<figure class="highlight clip-widget mb-0">
+		<pre title="jQuery" class="javascript" data-codetype ="JQueryku"><code class="language-javascript">
+		<script type="html-dayone/script">
+		// COLOR LEFTMENU START
+			$('body').addClass('color-menu');
+	   // COLOR LEFTMENU END
+		</script></code></pre>
+		</figure>
+		<!-- End Prism Precode -->
+	<p><b>NOTE: </b>You must perform <code>npm run dev</code> command after changing or modifying the content in assets folder, otherwise those changes you've made will not be applied to your template.</p>
+	</div>
+									</div>
+	
+									<div class="accordion">
+										<div class="accordion-header" data-toggle="collapse" data-target="#panel-body-3447">
+											<h4>15. How to Enable Dark Menu?</h4>
+										</div>
+										<div class="accordion-body collapse border border-top-0" id="panel-body-3447" data-parent="#accordion">
+											<p>To enable <b>Dark Menu</b> you have to open <b>custom.js</b> file present in  <span class="text-primary ml-2 mr-2"> (resources/assets/js/custom.js)</span> file  and remove comments for <code>dark-menu</code> as shown in below</p>
+	
+		<!-- Prism Code -->
+		<figure class="highlight clip-widget mb-0">
+		<pre title="jQuery" class="javascript" data-codetype ="JQueryku"><code class="language-javascript">
+		<script type="html-dayone/script">
+		// DARK LEFTMENU START
+			// $('body').addClass('dark-menu');
+		// DARK LEFTMENU END
+		</script></code></pre>
+		</figure>
+		<!-- End Prism Precode -->
+		<span class="mb-3">Remove the comments to enable <code>dark-menu</code> as shown below</span>
+		<!-- Prism Code -->
+		<figure class="highlight clip-widget mb-0">
+		<pre title="jQuery" class="javascript" data-codetype ="JQueryku"><code class="language-javascript">
+		<script type="html-dayone/script">
+		// DARK LEFTMENU START
+			$('body').addClass('dark-menu');
+	   // DARK LEFTMENU END
+		</script></code></pre>
+		</figure>
+		<!-- End Prism Precode -->
+	<p><b>NOTE: </b>You must perform <code>npm run dev</code> command after changing or modifying the content in assets folder, otherwise those changes you've made will not be applied to your template.</p>
+	</div>
+									</div>
+									<div class="accordion">
+										<div class="accordion-header" data-toggle="collapse" data-target="#panel-body-14">
+											<h4>16. How to Enable Gradient Menu?</h4>
+										</div>
+										<div class="accordion-body collapse border border-top-0" id="panel-body-14" data-parent="#accordion">
+											<p>To enable <b>Gradient Menu</b> you have to open <b>custom.js</b> file present in  <span class="text-primary ml-2 mr-2"> (resources/assets/js/custom.js)</span> file  and remove comments for <code>gradient-menu</code> as shown in below</p>
+	
+		<!-- Prism Code -->
+		<figure class="highlight clip-widget mb-0">
+		<pre title="jQuery" class="javascript" data-codetype ="JQueryku"><code class="language-javascript">
+		<script type="html-dayone/script">
+		// GRADIENT LEFTMENU START
+			// $('body').addClass('gradient-menu');
+		// GRADIENT LEFTMENU END
+		</script></code></pre>
+		</figure>
+		<!-- End Prism Precode -->
+		<span class="mb-3">Remove the comments to enable <code>gradient-menu</code> as shown below</span>
+		<!-- Prism Code -->
+		<figure class="highlight clip-widget mb-0">
+		<pre title="jQuery" class="javascript" data-codetype ="JQueryku"><code class="language-javascript">
+		<script type="html-dayone/script">
+		// GRADIENT LEFTMENU START
+			$('body').addClass('gradient-menu');
+	   // GRADIENT LEFTMENU END
+		</script></code></pre>
+		</figure>
+		<!-- End Prism Precode -->
+	<p><b>NOTE: </b>You must perform <code>npm run dev</code> command after changing or modifying the content in assets folder, otherwise those changes you've made will not be applied to your template.</p>
+	</div>
+									</div>
+									<div class="accordion">
+										<div class="accordion-header" data-toggle="collapse" data-target="#panel-body-15">
+											<h4>17. How to Enable Boxed-Layout?</h4>
+										</div>
+										<div class="accordion-body collapse border border-top-0" id="panel-body-15" data-parent="#accordion">
+											<p>To enable <b>layout-boxed</b> you have to open <b>custom.js</b> file present in  <span class="text-primary ml-2 mr-2"> (resources/assets/js/custom.js)</span> file  and remove comments for <code>boxed</code> as shown in below</p>
+	
+		<!-- Prism Code -->
+		<figure class="highlight clip-widget mb-0">
+		<pre title="jQuery" class="javascript" data-codetype ="JQueryku"><code class="language-javascript">
+		<script type="html-dayone/script">
+		// Boxed Layout Start //
+		// $('body').addClass('boxed');
+		// Boxed Layout Start //
+		</script></code></pre>
+		</figure>
+		<!-- End Prism Precode -->
+		<span class="mb-3">Remove the comments to enable <code>boxed</code> as shown below</span>
+		<!-- Prism Code -->
+		<figure class="highlight clip-widget mb-0">
+		<pre title="jQuery" class="javascript" data-codetype ="JQueryku"><code class="language-javascript">
+		<script type="html-dayone/script">
+			// Boxed Layout Start //
+			  $('body').addClass('boxed');
+			// Boxed Layout Start //
+		</script></code></pre>
+		</figure>
+		<!-- End Prism Precode -->
+	<p><b>NOTE: </b>You must perform <code>npm run dev</code> command after changing or modifying the content in assets folder, otherwise those changes you've made will not be applied to your template.</p>
+	</div>
+									</div>
+									
+									<div class="accordion">
+										<div class="accordion-header" data-toggle="collapse" data-target="#panel-body-19">
+											<h4>18. How to Enable Sidemenu-Icon-with Text?</h4>
+										</div>
+	
+										<div class="accordion-body collapse border border-top-0" id="panel-body-19" data-parent="#accordion">
+											<p>To enable <b>Sidemenu-Icon-with Text</b> you have to open <b>custom.js</b> file present in  <span class="text-primary ml-2 mr-2"> (resources/assets/js/custom.js)</span> file  and remove comments for <code>icon-text</code> as shown in below</p>
+		<!-- Prism Code -->
+		<figure class="highlight clip-widget mb-0">
+			<pre title="jQuery" class="javascript" data-codetype ="JQueryku"><code class="language-javascript">
+				// ***** Icon with Text *****//
+				// $('body').addClass('icon-text');
+				// $('body').addClass('sidenav-toggled');
+				// if(document.querySelector('.icon-text').firstElementChild.classList.contains('responsive-log') !== true){
+				// icontext();
+				// }
+			</code></pre>
+			</figure>
+			<!-- End Prism Precode -->
+			<span class="mb-3">Remove the comments to enable <code>sidemenu-icontext</code> as shown below</span>
+			<!-- Prism Code -->
+			<figure class="highlight clip-widget mb-0">
+			<pre title="jQuery" class="javascript" data-codetype ="JQueryku"><code class="language-javascript">
+				// ***** Icon with Text *****//
+					$('body').addClass('icon-text');
+				 	$('body').addClass('sidenav-toggled');
+					if(document.querySelector('.icon-text').firstElementChild.classList.contains('responsive-log') !== true){
+					icontext();
+				// }
+			</code></pre>
+			</figure>
+			<!-- End Prism Precode -->
+	
+	<p><b>NOTE: </b>You must perform <code>npm run dev</code> command after changing or modifying the content in assets folder, otherwise those changes you've made will not be applied to your template.</p>
+		</div>
+									</div>
+	
+									<div class="accordion">
+										<div class="accordion-header" data-toggle="collapse" data-target="#panel-body-21">
+											<h4>19. How to Enable Closed-Menu?</h4>
+										</div>
+	
+										<div class="accordion-body collapse border border-top-0" id="panel-body-21" data-parent="#accordion">
+											<p>To enable <b>Closed-Menu</b> you have to open <b>custom.js</b> file present in  <span class="text-primary ml-2 mr-2"> (resources/assets/js/custom.js)</span> file  and remove comments for <code>closed</code> as shown in below</p>
+		<!-- Prism Code -->
+		<figure class="highlight clip-widget mb-0">
+			<pre title="jQuery" class="javascript" data-codetype ="JQueryku"><code class="language-javascript">
+			/// ***** closed menu *****//
+			// $('body').addClass('closed');
+			// $('body').addClass('sidenav-toggled');
+			</code></pre>
+			</figure>
+			<!-- End Prism Precode -->
+			<span class="mb-3">Remove the comments to enable <code>Closed Sidemenu</code> as shown below</span>
+			<!-- Prism Code -->
+			<figure class="highlight clip-widget mb-0">
+			<pre title="jQuery" class="javascript" data-codetype ="JQueryku"><code class="language-javascript">
+				// ***** closed menu *****//
+					$('body').addClass('closed');
+					$('body').addClass('sidenav-toggled');
+			</code></pre>
+			</figure>
+			<!-- End Prism Precode -->
+	
+	<p><b>NOTE: </b>You must perform <code>npm run dev</code> command after changing or modifying the content in assets folder, otherwise those changes you've made will not be applied to your template.</p>
+		</div>
+									</div>
+									<div class="accordion">
+										<div class="accordion-header" data-toggle="collapse" data-target="#panel-body-20">
+											<h4>20. How to Enable Icon Overlay</h4>
+										</div>
+										<div class="accordion-body collapse border border-top-0" id="panel-body-20" data-parent="#accordion">
+											<p>To enable <b>Icon Overlay</b> you have to open <b>custom.js</b> file present in  <span class="text-primary ml-2 mr-2"> (resources/assets/js/custom.js)</span> file  and remove comments for <code>icon-overlay</code> as shown in below</p>
+		<!-- Prism Code -->
+		<figure class="highlight clip-widget mb-0">
+			<pre title="jQuery" class="javascript" data-codetype ="JQueryku"><code class="language-javascript">
+				// ***** Icon-overlay *****//
+				// $('body').addClass('icon-overlay');
+				// $('body').addClass('sidenav-toggled');
+			</code></pre>
+			</figure>
+			<!-- End Prism Precode -->
+			<span class="mb-3">Remove the comments to enable <code>sideicon-menu</code> as shown below</span>
+			<!-- Prism Code -->
+			<figure class="highlight clip-widget mb-0">
+			<pre title="jQuery" class="javascript" data-codetype ="JQueryku"><code class="language-javascript">
+				// ***** Icon-overlay *****//
+				 	$('body').addClass('icon-overlay');
+				 	$('body').addClass('sidenav-toggled');
+			</code></pre>
+			</figure>
+			<!-- End Prism Precode -->
+	<p><b>NOTE: </b>You must perform <code>npm run dev</code> command after changing or modifying the content in assets folder, otherwise those changes you've made will not be applied to your template.</p>
+		</div>
+									</div>
+									<div class="accordion">
+										<div class="accordion-header" data-toggle="collapse" data-target="#panel-body-200">
+											<h4>21. How to Enable Hover Submenu</h4>
+										</div>
+										<div class="accordion-body collapse border border-top-0" id="panel-body-200" data-parent="#accordion">
+											<p>To enable <b>Hover Submenu</b> you have to open <b>custom.js</b> file present in  <span class="text-primary ml-2 mr-2"> (resources/assets/js/custom.js)</span> file  and remove comments for <code>hover-submenu</code> as shown in below</p>
+		<!-- Prism Code -->
+		<figure class="highlight clip-widget mb-0">
+			<pre title="jQuery" class="javascript" data-codetype ="JQueryku"><code class="language-javascript">
+				// ***** Hover submenu *****//
+				//  $('body').addClass('hover-submenu');
+				//  $('body').addClass('sidenav-toggled');
+				// if(document.querySelector('.hover-submenu').firstElementChild.classList.contains('responsive-log') !== true){
+				// hovermenu();
+				// }
+			</code></pre>
+			</figure>
+			<!-- End Prism Precode -->
+			<span class="mb-3">Remove the comments to enable <code>Hover Submenu</code> as shown below</span>
+			<!-- Prism Code -->
+			<figure class="highlight clip-widget mb-0">
+			<pre title="jQuery" class="javascript" data-codetype ="JQueryku"><code class="language-javascript">
+				// ***** Hover submenu *****//
+				  $('body').addClass('hover-submenu');
+				  $('body').addClass('sidenav-toggled');
+				 if(document.querySelector('.hover-submenu').firstElementChild.classList.contains('responsive-log') !== true){
+				 hovermenu();
+				 }
+			</code></pre>
+			</figure>
+			<!-- End Prism Precode -->
+	<p><b>NOTE: </b>You must perform <code>npm run dev</code> command after changing or modifying the content in assets folder, otherwise those changes you've made will not be applied to your template.</p>
+		</div>
+									</div>
+									<div class="accordion">
+										<div class="accordion-header" data-toggle="collapse" data-target="#panel-body-201">
+											<h4>22. How to Enable Hover Submenu Style1</h4>
+										</div>
+										<div class="accordion-body collapse border border-top-0" id="panel-body-201" data-parent="#accordion">
+											<p>To enable <b>Hover submenu style1</b> you have to open <b>custom.js</b> file present in  <span class="text-primary ml-2 mr-2"> (resources/assets/js/custom.js)</span> file  and remove comments for <code>hover-submenu1</code> as shown in below</p>
+		<!-- Prism Code -->
+		<figure class="highlight clip-widget mb-0">
+			<pre title="jQuery" class="javascript" data-codetype ="JQueryku"><code class="language-javascript">
+				// ***** Hover submenu1 *****//
+				// $('body').addClass('hover-submenu1');
+				// $('body').addClass('sidenav-toggled');
+				// if(document.querySelector('.hover-submenu1').firstElementChild.classList.contains('responsive-log') !== true){
+				// hovermenu();
+				// }
+			</code></pre>
+			</figure>
+			<!-- End Prism Precode -->
+			<span class="mb-3">Remove the comments to enable <code>Hover Submenu Style1</code> as shown below</span>
+			<!-- Prism Code -->
+			<figure class="highlight clip-widget mb-0">
+			<pre title="jQuery" class="javascript" data-codetype ="JQueryku"><code class="language-javascript">
+				// ***** Hover submenu1 *****//
+				 $('body').addClass('hover-submenu1');
+				$('body').addClass('sidenav-toggled');
+				if(document.querySelector('.hover-submenu1').firstElementChild.classList.contains('responsive-log') !== true){
+			 	hovermenu();
+				}
+			</code></pre>
+			</figure>
+			<!-- End Prism Precode -->
+	<p><b>NOTE: </b>You must perform <code>npm run dev</code> command after changing or modifying the content in assets folder, otherwise those changes you've made will not be applied to your template.</p>
+		</div>
+									</div>
+									<div class="accordion">
+										<div class="accordion-header" data-toggle="collapse" data-target="#panel-body-202">
+											<h4>23. How to Enable Horizontal Click Menu</h4>
+										</div>
+										<div class="accordion-body collapse border border-top-0" id="panel-body-202" data-parent="#accordion">
+											<p>To enable <b>Horizontal layout</b> you have to open <b>custom.js</b> file present in  <span class="text-primary ml-2 mr-2"> (resources/assets/js/custom.js)</span> file  and remove comments for <code>horizontal</code> as shown in below</p>
+		<!-- Prism Code -->
+		<figure class="highlight clip-widget mb-0">
+			<pre title="jQuery" class="javascript" data-codetype ="JQueryku"><code class="language-javascript">
+				// ***** Horizontal Click Menu ***** //
+
+				// $('body').addClass('horizontal');
+			</code></pre>
+			</figure>
+			<!-- End Prism Precode -->
+			<span class="mb-3">Remove the comments to enable <code>Horizontal layout</code> as shown below</span>
+			<!-- Prism Code -->
+			<figure class="highlight clip-widget mb-0">
+			<pre title="jQuery" class="javascript" data-codetype ="JQueryku"><code class="language-javascript">
+				// ***** Horizontal Click Menu ***** //
+
+				 $('body').addClass('horizontal');
+			</code></pre>
+			</figure>
+			<!-- End Prism Precode -->
+	<p><b>NOTE: </b>You must perform <code>npm run dev</code> command after changing or modifying the content in assets folder, otherwise those changes you've made will not be applied to your template.</p>
+		</div>
+									</div>
+									<div class="accordion">
+										<div class="accordion-header" data-toggle="collapse" data-target="#panel-body-203">
+											<h4>24. How to Enable Horizontal Hover Menu </h4>
+										</div>
+										<div class="accordion-body collapse border border-top-0" id="panel-body-203" data-parent="#accordion">
+											<p>To enable <b>Horizontal Hover layout</b> you have to open <b>custom.js</b> file present in  <span class="text-primary ml-2 mr-2"> (resources/assets/js/custom.js)</span> file  and remove comments for <code>horizontal-hover</code> as shown in below</p>
+		<!-- Prism Code -->
+		<figure class="highlight clip-widget mb-0">
+			<pre title="jQuery" class="javascript" data-codetype ="JQueryku"><code class="language-javascript">
+				// ***** Horizontal Hover Menu ***** //
+
+				// $('body').addClass('horizontal-hover');
+			</code></pre>
+			</figure>
+			<!-- End Prism Precode -->
+			<span class="mb-3">Remove the comments to enable <code>Horizontal Hover layout</code> as shown below</span>
+			<!-- Prism Code -->
+			<figure class="highlight clip-widget mb-0">
+			<pre title="jQuery" class="javascript" data-codetype ="JQueryku"><code class="language-javascript">
+				// ***** Horizontal Hover Menu ***** //
+
+				$('body').addClass('horizontal-hover');
+			</code></pre>
+			</figure>
+			<!-- End Prism Precode -->
+	<p><b>NOTE: </b>You must perform <code>npm run dev</code> command after changing or modifying the content in assets folder, otherwise those changes you've made will not be applied to your template.</p>
+		</div>
+									</div>
+	
+									<div class="accordion">
+										<div class="accordion-header" data-toggle="collapse" data-target="#panel-body-222">
+											<h4>25. How to Enable Horizontal or Horizantal Hover layout With Wrap Style</h4>
+										</div>
+										<div class="accordion-body collapse border border-top-0" id="panel-body-222" data-parent="#accordion">
+											<p> Open <code>custom.js</code> file present in <code>resources/assets/js/custom.js</code> in that file you will find below js, <code>Horizontal (or) Horizontal Hover layout</code> to enable wrap
+												style for Horizontal or Horizontal Hover</p>
+											<p class=""><b>noWrap</b> style is given as default horizontal menu style,if you want to change it to wrap style please follow below process.</p>
+		<!-- Prism Code -->
+		<figure class="highlight clip-widget mb-0">
+		<pre title="jQuery" class="javascript" data-codetype ="JQueryku"><code class="language-javascript">
+			$('#slide-left').addClass('d-none');
+			$('#slide-right').addClass('d-none');
+			// $('#slide-left').removeClass('d-none');
+			// $('#slide-right').removeClass('d-none');
+			if (document.querySelector('.horizontal').firstElementChild.classList.contains('login-img') !== true) {
+				document.querySelector('.horizontal .side-menu').style.flexWrap = 'nowrap'
+		</code></pre>
+		</figure>
+		<!-- End Prism Precode -->
+											<h6><b>Related Image:</b></h6>
+											<p class="text-center"><img alt="" src="assets/images/hor-1.jpg" class="border"></p>
+											<h6 class="mt-3"><b>wrap style:</b></h6>
+											<span class="mb-3">Replace <code>noWrap</code> with <code>wrap</code> as
+												shown below</span> and remove comments for <code>$('#slide-left').addClass('d-none');</code> & <code>$('#slide-right').addClass('d-none');</code>
+												and add comments to <code>$('#slide-left').removeClass('d-none');</code> &  <code>$('#slide-right').removeClass('d-none');</code> as shown below.
+											<!-- Prism Code -->
+											<figure class="highlight clip-widget mb-0">
+												<pre title="jQuery" class="javascript" data-codetype="JQueryku"><code class="language-javascript">
+													//$('#slide-left').addClass('d-none');
+													//$('#slide-right').addClass('d-none');
+													 $('#slide-left').removeClass('d-none');
+													 $('#slide-right').removeClass('d-none');
+													if (document.querySelector('.horizontal').firstElementChild.classList.contains('login-img') !== true) {
+														document.querySelector('.horizontal .side-menu').style.flexWrap = 'wrap'
+								</code></pre>
+											</figure>
+											<!-- End Prism Precode -->
+										<h6><b>Related Image:</b></h6>
+										<p class="text-center"><img alt="" src="assets/images/hor-2.jpg" class="border"></p>
+											<p>Simply you can change <code>noWrap</code> with <code>wrap</code>to change the style of Horizontal or Horizontal Hover Menus </p>
+											<p><b>NOTE: </b>You must perform <code>npm run dev</code> command after changing or modifying the content in assets folder, otherwise those changes you've made will not be applied to your template.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row clearfix">
+					<div class="col-sm-12">
+						<div class="card" id="sources">
+							<div class="body">
+								<h5>Sources</h5>
+								<div class="doc-sources">
+									<ul class="mb-0">
+										<li class="text-dark">Bootstrap FrameWork</li>
+										<li><a href="https://getbootstrap.com/"
+												class="text-primary" target="_blank">https://getbootstrap.com/</a></li>
+
+										<li class="text-dark">Jquery</li>
+										<li><a href="https://jquery.com"
+											 target="_blank">https://jquery.com/</a></li>
+
+										<li class="text-dark">Jquery Datepicker</li>
+										<li><a href="https://jqueryui.com/datepicker/"
+											 target="_blank">https://jqueryui.com/datepicker/</a></li>
+
+										<li class="text-dark">Full Calendar</li>
+										<li><a href="https://fullcalendar.io/"
+											 target="_blank">https://fullcalendar.io/</a></li>
+											 
+										<li class="text-dark">File Uploads</li>
+										<li><a
+												href="https://www.jqueryscript.net/demo/jQuery-Plugin-To-Beautify-File-Inputs-with-Custom-Styles-Dropify/"
+											 target="_blank">https://www.jqueryscript.net/demo/jQuery-Plugin-To-Beautify-File-Inputs-with-Custom-Styles-Dropify/</a></li>
+										
+										<li class="text-dark">mcustomScrollbar</li>
+										<li><a
+												href="http://manos.malihu.gr/jquery-custom-content-scroller/"
+											 target="_blank">http://manos.malihu.gr/jquery-custom-content-scroller/</a></li>
+										
+										<li class="text-dark">Select2</li>
+										<li><a href="https://select2.org/"
+											 target="_blank">https://select2.org/</a></li>
+
+										<li class="text-dark">Jquery Timepicker</li>
+										<li><a href="https://jonthornton.github.io/jquery-timepicker/"
+											 target="_blank">https://jonthornton.github.io/jquery-timepicker/</a></li>
+										
+										<li class="text-dark">Bootstrap-wizard</li>
+										<li><a href="http://vinceg.github.io/twitter-bootstrap-wizard/"
+											 target="_blank">http://vinceg.github.io/twitter-bootstrap-wizard/</a></li>
+										
+										<li class="text-dark">Datatable</li>
+										<li><a
+												href="https://datatables.net/examples/styling/bootstrap4"
+											 target="_blank">https://datatables.net/examples/styling/bootstrap4</a></li>
+										
+										<li class="text-dark">Font Awesome Icons</li>
+										<li><a href="https://fontawesome.com/v4.7.0/icons/"
+											 target="_blank">https://fontawesome.com/v4.7.0/icons/</a></li>
+
+										<li class="text-dark">Material Design Icons</li>
+										<li><a href="https://materialdesignicons.com/"
+											 target="_blank">https://materialdesignicons.com/</a></li>
+
+										<li class="text-dark">Simpleline Icons</i>
+										<li><a href="https://simplelineicons.github.io/"
+												target="_blank">https://simplelineicons.github.io/</a></li>
+									
+										<li class="text-dark">Feather Icons</li>
+										<li><a href="https://feathericons.com/"
+											 target="_blank">https://feathericons.com/</a></li>
+
+										<li class="text-dark">Ionicons</li>
+										<li><a href="https://ionicons.com/"
+											 target="_blank">https://ionicons.com/</a></li>
+
+										<li class="text-dark">Themify Icons</li>
+										<li><a href="https://themify.me/themify-icons"
+											 target="_blank">https://themify.me/themify-icons</a></li>
+
+											 <li class="text-dark">Weather Icons</li>
+										<li><a href="https://erikflowers.github.io/weather-icons/"
+											 target="_blank">https://erikflowers.github.io/weather-icons/</a></li>
+
+											 <li class="text-dark">Typicons Icons</li>
+										<li><a href="https://iconify.design/icon-sets/typcn/"
+											 target="_blank">https://iconify.design/icon-sets/typcn/</a></li>
+
+											 <li class="text-dark">Material Svg Icons</li>
+										<li><a href="https://iconify.design/icon-sets/typcn/"
+											 target="_blank">https://iconify.design/icon-sets/typcn/</a></li>
+											 
+										<li class="text-dark">Bootstrap-Colorpicker</li>
+										<li><a href="https://github.com/bgrins/spectrum"
+											 target="_blank">https://github.com/bgrins/spectrum</a></li>
+
+										<li class="text-dark">Sparkline Charts</li>
+										<li><a href="https://omnipotent.net/jquery.sparkline/#s-about"
+											 target="_blank">https://omnipotent.net/jquery.sparkline/#s-about</a></li>
+										
+										<li class="text-dark">Echart</li>
+										<li><a
+												href="https://github.com/apache/echarts"
+											 target="_blank">https://github.com/apache/echarts</a></li>
+										
+										<li class="text-dark">Morris Chart</li>
+										<li><a href="https://morrisjs.github.io/morris.js/"
+											 target="_blank">https://morrisjs.github.io/morris.js/</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row clearfix">
+					<div class="col-sm-12">
+						<div class="card" id="fonts">
+							<div class="body">
+								<h5>Font Used</h5>
+								<p>Google fonts are used in the template. They are as follows: <a
+										href="https://fonts.google.com">Google Fonts </a></p>
+								<p>All Images are used: <a href="https://www.pexels.com/">Pexels.com</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row clearfix">
+					<div class="col-sm-12">
+						<div class="card" id="thank_you">
+							<div class="body">
+								<h5>THANK YOU!</h5>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<div class="color-bg">
+			<ul class="nav navbar-nav">
+				<li class="nav-item mr-8"><a class="btn btn-primary btn-header " href="https://themeforest.net/item/dayone-multipurpose-html-dashboard-template/31885649?gclid=Cj0KCQjw0PWRBhDKARIsAPKHFGidx0JikixF1P1Wg0IGdKrK758SXchDE-u08uIfwu-PFSFQyc5Jxz8aAouXEALw_wcB" target="_blank"><i class="icon-help2"></i> Buy Now</a></li>
+				<li class="nav-item mr-8"><a class="btn btn-warning btn-header " href="https://themeforest.net/user/spruko/portfolio" target="_blank"><i class="icon-bag3"></i> Portfolio</a></li>
+				<li class="nav-item"><a class="btn btn-danger text-white mr-3 btn-header" href="https://spruko.com/licenses.html" target="_blank"><i class="icon-bag3"></i> Licenses</a></li>
+			</ul>
+		</div>
+
+		<!-- Jquery Core Js -->
+		<script src="assets/bundles/libscripts.bundle.js"></script> <!-- Lib Scripts Plugin Js -->
+		<script src="assets/bundles/morphingsearchscripts.bundle.js"></script> <!-- morphing search Js -->
+		<script src="assets/bundles/vendorscripts.bundle.js"></script> <!-- Lib Scripts Plugin Js -->
+		<script src="assets/bundles/mainscripts.bundle.js"></script><!-- Custom Js -->
+
+		<!-- Internal Prism js-->
+		<script src="assets/plugins/prism/prism.js"></script>
+
+		<!-- Treeview js-->
+		<script src="assets/plugins/treeview-prism/prism.js"></script>
+		<script src="assets/plugins/treeview-prism/prism-treeview.js"></script>
+
+		<!-- Perfectscroll js-->
+		<script src="assets/plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+		<script src="assets/plugins/perfect-scrollbar/p-scroll.js"></script>
+
+		<!-- Custom js-->
+		<script src="assets/js/custom.js"></script>
+		<script src="assets/js/menuspy.min.js.js"></script>
+
+		<script>
+			var elm = document.querySelector('#main-menu');
+			var ms = new MenuSpy(elm);
+
+			(function () {
+
+			if (typeof self === 'undefined' || !self.Prism || !self.document) {
+				return;
+			}
+
+			/**
+			 * Class name for <pre> which is activating the plugin
+			 * @type {String}
+			 */
+			var PLUGIN_CLASS = 'line-numbers';
+
+			/**
+			 * Resizes line numbers spans according to height of line of code
+			 * @param  {Element} element <pre> element
+			 */
+			var _resizeElement = function (element) {
+				var codeStyles = getStyles(element);
+				var whiteSpace = codeStyles['white-space'];
+
+				if (whiteSpace === 'pre-wrap' || whiteSpace === 'pre-line') {
+					var codeElement = element.querySelector('code');
+					var lineNumbersWrapper = element.querySelector('.line-numbers-rows');
+					var lineNumberSizer = element.querySelector('.line-numbers-sizer');
+					var codeLines = element.textContent.split('\n');
+
+					if (!lineNumberSizer) {
+						lineNumberSizer = document.createElement('span');
+						lineNumberSizer.className = 'line-numbers-sizer';
+
+						codeElement.appendChild(lineNumberSizer);
+					}
+
+					lineNumberSizer.style.display = 'block';
+
+					codeLines.forEach(function (line, lineNumber) {
+						lineNumberSizer.textContent = line || '\n';
+						var lineSize = lineNumberSizer.getBoundingClientRect().height;
+						lineNumbersWrapper.children[lineNumber].style.height = lineSize + 'px';
+					});
+
+					lineNumberSizer.textContent = '';
+					lineNumberSizer.style.display = 'none';
+				}
+			};
+
+			/**
+			 * Returns style declarations for the element
+			 * @param {Element} element
+			 */
+			var getStyles = function (element) {
+				if (!element) {
+					return null;
+				}
+
+				return window.getComputedStyle ? getComputedStyle(element) : (element.currentStyle || null);
+			};
+
+			window.addEventListener('resize', function () {
+				Array.prototype.forEach.call(document.querySelectorAll('pre.' + PLUGIN_CLASS), _resizeElement);
+			});
+
+			Prism.hooks.add('complete', function (env) {
+				if (!env.code) {
+					return;
+				}
+
+				// works only for <code> wrapped inside <pre> (not inline)
+				var pre = env.element.parentNode;
+				// Original regex check for class, leaving it here
+				// for its redundancy check
+				var clsReg = /\s*\bline-numbers\b\s*/;
+				// New regex check for opt-out class
+				var clsRegB = /\s*\bno-line-numbers\b\s*/;
+
+				if (env.element.querySelector(".line-numbers-rows")) {
+					// Abort if line numbers already exists
+					return;
+				}
+
+				// Added to facilitate opting out
+				if (clsRegB.test(pre.className)) {
+					// Respect the opt-out
+					return;
+				}
+
+				if (clsReg.test(env.element.className)) {
+					// Remove the class "line-numbers" from the <code>
+					env.element.className = env.element.className.replace(clsReg, ' ');
+				}
+				if (!clsReg.test(pre.className)) {
+					// Add the class "line-numbers" to the <pre>
+					pre.className += ' line-numbers';
+				}
+
+				var match = env.code.match(/\n(?!$)/g);
+				var linesNum = match ? match.length + 1 : 1;
+				var lineNumbersWrapper;
+
+				var lines = new Array(linesNum + 1);
+				lines = lines.join('<span></span>');
+
+				lineNumbersWrapper = document.createElement('span');
+				lineNumbersWrapper.setAttribute('aria-hidden', 'true');
+				lineNumbersWrapper.className = 'line-numbers-rows';
+				lineNumbersWrapper.innerHTML = lines;
+
+				if (pre.hasAttribute('data-start')) {
+					pre.style.counterReset = 'linenumber ' + (parseInt(pre.getAttribute('data-start'), 10) - 1);
+				}
+
+				env.element.appendChild(lineNumbersWrapper);
+
+				_resizeElement(pre);
+			});
+
+		}());
+		</script>
+
+
+	</body>
+</html>
