@@ -15,6 +15,10 @@ return new class extends Migration
     {
         Schema::create('customers', function (Blueprint $table) {
             $table->id();
+            $table->unsignedBigInteger('user_id')->index();
+            $table->string('phone');
+            $table->string('kra_pin');
+            $table->string('id_no');
             $table->timestamps();
         });
     }

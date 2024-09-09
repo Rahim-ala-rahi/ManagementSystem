@@ -15,6 +15,15 @@ return new class extends Migration
     {
         Schema::create('agents', function (Blueprint $table) {
             $table->id();
+            $table->unsignedInteger('user_id')->index();
+            $table->string('agency_name');
+            $table->string('phone');
+            $table->string('kra_pin');
+            $table->string('license_path');
+            $table->string('reg_certificate_path');
+            $table->string('contact_person_name');
+            $table->string('contact_person_email');
+            $table->string('contact_person_phone');
             $table->timestamps();
         });
     }
